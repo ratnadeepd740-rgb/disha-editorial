@@ -618,10 +618,10 @@ const EXAMS_DATA = [
       "Law, Policy & Defence": 15
     },
     blueprint: {
-      eligibleStreamsText: "Class 12 with Physics, Chemistry & Mathematics (75% aggregate or top 20 percentile in boards for IITs/NITs).",
+      eligibleStreamsText: "Class 12 with Physics, Chemistry & Mathematics (75% aggregate for GEN/OBC or 65% for SC/ST in boards for IITs/NITs).",
       pattern: "JEE Main: 75 questions (300 marks, 3 hrs, CBT). JEE Advanced: Two mandatory 3-hr papers testing multi-concept analytical depth.",
       conductingBody: "National Testing Agency (Main) & IIT Joint Admission Board (Advanced)",
-      targetScore: "99.3+ Percentile in JEE Main for top NIT CSE/ECE; Top 2,500 AIR in JEE Advanced for Old IIT circuital/core branches."
+      targetScore: "JEE Main 2025 Cutoffs: 99.3+ %ile (~205+ pts) for top NIT CSE; Qualifying Cutoff: GEN 93.10%ile, OBC 79.43%ile, SC 61.15%ile, ST 47.90%ile."
     },
     campusReality: {
       degreeAwarded: "4-Year B.Tech or 5-Year Integrated Dual Degree (B.Tech + M.Tech)",
@@ -660,10 +660,10 @@ const EXAMS_DATA = [
       "Law, Policy & Defence": 15
     },
     blueprint: {
-      eligibleStreamsText: "Class 12 with PCM, minimum 75% aggregate in PCM and 60% in each individual subject.",
+      eligibleStreamsText: "Class 12 with PCM, minimum 75% aggregate in PCM and 60% in each individual subject (Pure Merit — No SC/ST reservation).",
       pattern: "130 MCQs in 3 hours (Physics, Chemistry, Maths, English & Logical Reasoning) + 12 bonus questions if finished early.",
       conductingBody: "BITS Pilani Admissions Division",
-      targetScore: "310+ / 390 for Pilani CSE; 275+ for Goa/Hyderabad CSE & ECE; 235+ for M.Sc. Economics/Math dual degree."
+      targetScore: "Latest Official Cutoffs (/390): Pilani CSE 304–327, MnC 295–312, ECE 285–298; Goa CSE 274–301; Hyd CSE 270–298; M.Sc. Econ 231–251."
     },
     campusReality: {
       degreeAwarded: "4-Year B.E. (Hons.) or 5-Year Integrated M.Sc. (Econ/Math/Physics) + B.E. Dual Degree",
@@ -957,7 +957,7 @@ const EXAMS_DATA = [
       eligibleStreamsText: "Class 12 with PCM (unmarried candidates aged 16.5–19.5 yrs; JEE Main score required for Army 10+2 TES & Navy B.Tech).",
       pattern: "NDA: Written Exam (Maths 300 + GAT 600 marks) + 5-day SSB Psychological/GTO/Interview + CPSS (for Flying) + Medicals.",
       conductingBody: "UPSC (NDA & NA) & Directorate General of Recruiting (Indian Army/Navy)",
-      targetScore: "420+ / 900 in NDA Written + SSB Recommendation; Top 2.5 Lakh JEE Main rank for direct Army TES SSB call."
+      targetScore: "365–385+ / 900 in UPSC NDA Written (with 25% sectional cutoff) + 710+ / 1800 Final (Written + SSB); Top 2.5L JEE Main rank for Army TES."
     },
     campusReality: {
       degreeAwarded: "4-Year B.Tech Degree (JNU / AICTE accredited) + Permanent Commission as Sub-Lieutenant / Flying Officer / Lieutenant",
@@ -996,10 +996,10 @@ const EXAMS_DATA = [
       "Law, Policy & Defence": 25
     },
     blueprint: {
-      eligibleStreamsText: "Class 12 with Physics, Chemistry & Biology/Biotechnology (minimum 50% PCB aggregate; minimum age 17 years).",
+      eligibleStreamsText: "Class 12 with Physics, Chemistry & Biology/Biotechnology (minimum 50% PCB for GEN, 40% for OBC/SC/ST; minimum age 17 years).",
       pattern: "180 compulsory MCQs (720 marks, 3 hrs, pen-and-paper): Biology (360), Physics (180), Chemistry (180) based strictly on NCERT.",
       conductingBody: "National Testing Agency (NTA)",
-      targetScore: "665+ / 720 for top Govt Medical Colleges (AIIMS/MAMC/KGMU); 625+ for State Quota GMC MBBS seats."
+      targetScore: "AIIMS/Top GMC: 675–705 (GEN), 665+ (OBC), 615+ (SC), 590+ (ST); AIQ Govt MBBS Closing: 525–652 (GEN/OBC), 439–553 (SC), 425–527 (ST)."
     },
     campusReality: {
       degreeAwarded: "5.5-Year MBBS (4.5 yrs academics + 1 yr compulsory rotating internship) or BDS / BAMS / BVSc",
@@ -1038,10 +1038,10 @@ const EXAMS_DATA = [
       "Law, Policy & Defence": 25
     },
     blueprint: {
-      eligibleStreamsText: "Class 12 with Physics, Chemistry, Biology & English (55% aggregate; B.Sc. Hons. Nursing at AIIMS is exclusively for female candidates).",
-      pattern: "CBT exam (100 marks for Nursing, 90 marks for Paramedical) testing PCB + General Knowledge with 1/3 negative marking.",
-      conductingBody: "All India Institute of Medical Sciences (AIIMS), New Delhi",
-      targetScore: "72+ / 100 for AIIMS New Delhi B.Sc. (Hons.) Nursing or Medical Radiology & Imaging Technology."
+      eligibleStreamsText: "Class 12 Science with any 3 of Physics, Chemistry, Mathematics, Biology (60% aggregate for GEN/OBC; 55% for SC/ST/PwD).",
+      pattern: "60 MCQs in 3 hours (240 marks): 15 questions each from Physics, Chemistry, Mathematics, and Biology (attempt all 4 sections).",
+      conductingBody: "Indian Institutes of Science Education and Research (IISER)",
+      targetScore: "Out of 240: IISc 205+ (GEN) / 155+ (SC); IISER Pune 150–160 (GEN), 130+ (OBC), 95+ (SC), 80+ (ST); Berhampur/Tirupati 110+ (GEN), 65+ (SC/ST)."
     },
     campusReality: {
       degreeAwarded: "4-Year B.Sc. (Hons.) Nursing or 3–4 Year B.Sc. Paramedical (Radiology, Optometry, Operation Theatre Tech)",
@@ -1080,10 +1080,10 @@ const EXAMS_DATA = [
       "Law, Policy & Defence": 20
     },
     blueprint: {
-      eligibleStreamsText: "Class 12 with PCB (PCMB also eligible) with minimum 45%–50% aggregate.",
-      pattern: "State CETs (MHT-CET PCB, KCET, AP/TS EAPCET) or CUET-UG; tests NCERT-level Physics, Chemistry & Biology.",
-      conductingBody: "State Common Entrance Test Cells & Pharmacy/Physiotherapy Councils",
-      targetScore: "98+ percentile in MHT-CET PCB for ICT Mumbai / Bombay College of Pharmacy; top ranks for KEM/Seth GS BPT."
+      eligibleStreamsText: "Open to ALL Class 12 streams (PCMB, PCM, PCB, Commerce, Arts) with minimum 60% in Class 10 & 12 (55% for SC/ST/PwD).",
+      pattern: "IPMAT Indore: Quantitative Ability (MCQ + Short Answer) + Verbal Ability (120 mins, 360 marks) + Personal Interview.",
+      conductingBody: "IIM Indore, IIM Rohtak, and NTA (for IIM Jammu & IIM Bodh Gaya)",
+      targetScore: "IPMAT Indore (/360): GEN 178–205, OBC 126–145, SC 92–110, ST 68–85; IIM Rohtak (/480): GEN 381, OBC 297, SC 230, ST 138."
     },
     campusReality: {
       degreeAwarded: "4-Year B.Pharm, 6-Year Doctor of Pharmacy (Pharm.D), or 4.5-Year Bachelor of Physiotherapy (BPT)",
@@ -1122,10 +1122,10 @@ const EXAMS_DATA = [
       "Law, Policy & Defence": 52
     },
     blueprint: {
-      eligibleStreamsText: "Class 12 with PCB, PCM, or Agriculture (50% aggregate; subject combination determines B.Sc. Agri vs B.Tech Food/Agri Engg).",
-      pattern: "Conducted via CUET-UG domain subjects (Biology/Maths, Chemistry, Physics/Agri) for central ICAR quota seats.",
-      conductingBody: "National Testing Agency (NTA) & ICAR Education Division",
-      targetScore: "96+ percentile across CUET PCB domains for IARI New Delhi, PAU Ludhiana, GBPUAT Pantnagar, and TNAU Coimbatore."
+      eligibleStreamsText: "Open to ALL Class 12 streams (PCMB, PCM, PCB, Commerce, Arts) with minimum 45% aggregate (40% for SC/ST; no upper age limit).",
+      pattern: "Comprehension-based 120 MCQs in 2 hours covering English, Current Affairs/GK, Legal Reasoning, Logical Reasoning, and Quantitative Techniques.",
+      conductingBody: "Consortium of National Law Universities (CLAT) & NLU Delhi (AILET)",
+      targetScore: "CLAT (/120): Top 3 NLUs GEN 95–98, OBC 88–93, SC 78–85, ST 72–80; Tier-2/3 NLUs GEN 76–86, OBC 68–78, SC 58–68, ST 52–62."
     },
     campusReality: {
       degreeAwarded: "4-Year Professional B.Sc. (Hons.) Agriculture / Horticulture / Forestry or B.Tech Food Technology",
@@ -1164,10 +1164,10 @@ const EXAMS_DATA = [
       "Law, Policy & Defence": 15
     },
     blueprint: {
-      eligibleStreamsText: "Class 12 Science with any 3 of Physics, Chemistry, Mathematics, Biology (60% aggregate; IISc requires Mathematics).",
-      pattern: "60 MCQs in 3 hours (240 marks): 15 questions each from Physics, Chemistry, Mathematics, and Biology (attempt all 4 sections).",
-      conductingBody: "Indian Institutes of Science Education and Research (IISER)",
-      targetScore: "195+ / 240 for IISc Bengaluru; 145+ / 240 for IISER Pune & Kolkata; 120+ / 240 for Mohali, Bhopal, TVM, Tirupati."
+      eligibleStreamsText: "Open to ALL Class 12 streams (PCMB, PCM, PCB, Commerce, Arts; note IIT Guwahati/Hyderabad B.Des require PCM).",
+      pattern: "UCEED: Part A (200 marks CBT spatial/visual logic) + Part B (100 marks live sketching). NID DAT: Prelims + Studio Test & Portfolio Interview.",
+      conductingBody: "IIT Bombay (UCEED Office) & NID Admissions Cell",
+      targetScore: "UCEED (/300): IIT Bombay/Delhi GEN 165–185 (Rank ≤41), OBC 145+, SC 115+, ST 100+; Part-A Qualifying: GEN ~70, OBC ~63, SC/ST ~35."
     },
     campusReality: {
       degreeAwarded: "5-Year Integrated BS-MS Dual Degree (Physics, Chemistry, Biology, Math, Earth/Data Sciences) or 4-Year B.S. at IISc",
@@ -1206,10 +1206,10 @@ const EXAMS_DATA = [
       "Law, Policy & Defence": 25
     },
     blueprint: {
-      eligibleStreamsText: "Class 12 Science with at least 3 subjects from Physics, Chemistry, Biology, Mathematics (60% aggregate).",
-      pattern: "CBT exam testing 4 sections (Physics, Chemistry, Biology, Maths — best 3 sections counted for merit) with conceptual depth.",
-      conductingBody: "NISER Bhubaneswar & UM-DAE CEBS Mumbai (under DAE)",
-      targetScore: "Top ~250 All-India Rank in NEST for NISER Bhubaneswar or UM-DAE CEBS Mumbai."
+      eligibleStreamsText: "Open to ALL Class 12 streams for the Army Wing of NDA (unmarried candidates aged 16.5–19.5 years; Pure Merit selection).",
+      pattern: "UPSC Written Exam (Mathematics 300 + General Ability Test 600 marks) + 5-Day Services Selection Board (SSB) + Medical Board.",
+      conductingBody: "Union Public Service Commission (UPSC) & Ministry of Defence",
+      targetScore: "365–385+ / 900 in NDA Written (minimum 25% in Math & GAT) + 710+ / 1800 Final (Written + SSB)."
     },
     campusReality: {
       degreeAwarded: "5-Year Integrated M.Sc. in Biological, Chemical, Mathematical, or Physical Sciences",
@@ -1954,25 +1954,2020 @@ function renderFormattedText(text) {
   return lines.map((line, index) => {
     const trimmed = line.trim();
     if (!trimmed) {
-      return <div key={index} className="h-2.5" />;
+      return <div key={index} className="h-2" />;
+    }
+    if (trimmed === "---" || trimmed === "***") {
+      return <hr key={index} className="my-3 border-[#E2DDD0]" />;
+    }
+    if (trimmed.startsWith("### ") || trimmed.startsWith("## ") || trimmed.startsWith("# ")) {
+      const headingContent = trimmed.replace(/^#{1,3}\s+/, "");
+      return (
+        <h4
+          key={index}
+          className="mt-3.5 mb-1.5 font-serif-editorial text-[16px] sm:text-[17px] font-semibold leading-snug text-[#16382E] border-b border-[#E2DDD0]/70 pb-1"
+        >
+          {renderInlineBold(headingContent)}
+        </h4>
+      );
+    }
+    const numberedMatch = trimmed.match(/^(\d+)\.\s+(.*)$/);
+    if (numberedMatch) {
+      return (
+        <div key={index} className="flex items-start gap-2.5 pl-0.5 my-1.5">
+          <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#194236]/10 text-[11px] font-bold text-[#16382E]">
+            {numberedMatch[1]}
+          </span>
+          <p className="text-[14px] sm:text-[14.5px] leading-relaxed text-[#2C3632]">
+            {renderInlineBold(numberedMatch[2])}
+          </p>
+        </div>
+      );
     }
     if (trimmed.startsWith("- ") || trimmed.startsWith("* ") || trimmed.startsWith("• ")) {
       const content = trimmed.slice(2);
       return (
         <div key={index} className="flex items-start gap-2.5 pl-1 my-1.5">
           <span className="mt-2 h-1.5 w-1.5 rounded-full bg-[#A67C46] shrink-0" />
-          <p className="text-[14px] leading-relaxed text-[#2C3632]">
+          <p className="text-[14px] sm:text-[14.5px] leading-relaxed text-[#2C3632]">
             {renderInlineBold(content)}
           </p>
         </div>
       );
     }
     return (
-      <p key={index} className="text-[14px] leading-relaxed text-[#2C3632] my-1">
+      <p key={index} className="text-[14px] sm:text-[14.5px] leading-relaxed text-[#2C3632] my-1">
         {renderInlineBold(trimmed)}
       </p>
     );
   });
+}
+
+const COUNSELLOR_PROMPT_CHIPS = [
+  "Build my 4-Bucket Portfolio (Dream + Target + Wildcard + Backup)",
+  "I am a PCB student burnt out by NEET—what are my best high-paying options?",
+  "Compare IPMAT vs Engineering/Medicine ROI over 10 years"
+];
+
+const CATEGORY_OPTIONS = [
+  { id: "GEN", label: "General (UR)", shortLabel: "GEN" },
+  { id: "OBC", label: "OBC-NCL / EWS", shortLabel: "OBC/EWS" },
+  { id: "SC", label: "Scheduled Caste (SC)", shortLabel: "SC" },
+  { id: "ST", label: "Scheduled Tribe (ST)", shortLabel: "ST" }
+];
+
+const BOARDS_CUTOFF_TABS = [
+  {
+    id: "national-gates",
+    label: "IIT / NIT / BITS Gates",
+    metricType: "auto",
+    branches: [
+      {
+        name: "BITS Pilani Direct Board Topper",
+        fullName: "BITS Pilani Direct Admission (Board Rank 1)",
+        cutoff: 99,
+        cutoffsByCat: { GEN: 99, OBC: 99, SC: 99, ST: 99 },
+        basis: "PCM"
+      },
+      {
+        name: "JAC Delhi / Top Private Aid",
+        fullName: "JAC Delhi & Private Merit Scholarship Bracket",
+        cutoff: 95,
+        cutoffsByCat: { GEN: 95, OBC: 92, SC: 85, ST: 82 },
+        basis: "PCM"
+      },
+      {
+        name: "IISc Bengaluru Safe Board Bar",
+        fullName: "IISc Bengaluru & Top Research Safe Board %",
+        cutoff: 85,
+        cutoffsByCat: { GEN: 85, OBC: 80, SC: 70, ST: 65 },
+        basis: "Overall"
+      },
+      {
+        name: "BITSAT Eligibility Gate (PCM)",
+        fullName: "BITSAT Mandatory 75% PCM (+60% each, All Categories)",
+        cutoff: 75,
+        cutoffsByCat: { GEN: 75, OBC: 75, SC: 75, ST: 75 },
+        basis: "PCM"
+      },
+      {
+        name: "JEE Main & Adv (IIT/NIT/IIIT)",
+        fullName: "JoSAA Official Board Criteria (75% GEN/OBC, 65% SC/ST)",
+        cutoff: 75,
+        cutoffsByCat: { GEN: 75, OBC: 75, SC: 65, ST: 65 },
+        basis: "Overall"
+      },
+      {
+        name: "IIST ISRO Space B.Tech Gate",
+        fullName: "IIST Thiruvananthapuram Board Criteria (75% GEN/OBC, 65% SC/ST)",
+        cutoff: 75,
+        cutoffsByCat: { GEN: 75, OBC: 75, SC: 65, ST: 65 },
+        basis: "PCM"
+      },
+      {
+        name: "Army TES / Navy B.Tech SSB",
+        fullName: "Indian Army 10+2 TES & Navy B.Tech 60% PCM Gate",
+        cutoff: 60,
+        cutoffsByCat: { GEN: 60, OBC: 60, SC: 60, ST: 60 },
+        basis: "PCM"
+      },
+      {
+        name: "IMU-CET Merchant Navy Gate",
+        fullName: "IMU-CET & Shipping Sponsorship (60% PCM, 55% SC/ST)",
+        cutoff: 60,
+        cutoffsByCat: { GEN: 60, OBC: 60, SC: 55, ST: 55 },
+        basis: "PCM"
+      },
+      {
+        name: "IISER IAT & NEST Minimum Gate",
+        fullName: "IISER BS-MS & NISER Official Gate (60% GEN/OBC, 55% SC/ST)",
+        cutoff: 60,
+        cutoffsByCat: { GEN: 60, OBC: 60, SC: 55, ST: 55 },
+        basis: "Overall"
+      },
+      {
+        name: "NEET-UG MBBS / AIIMS Gate",
+        fullName: "NEET-UG NMC PCB Aggregate Gate (50% GEN, 40% OBC/SC/ST)",
+        cutoff: 50,
+        cutoffsByCat: { GEN: 50, OBC: 40, SC: 40, ST: 40 },
+        basis: "PCM"
+      }
+    ]
+  },
+  {
+    id: "merit-admissions",
+    label: "Merit Colleges (TNEA / DU)",
+    metricType: "auto",
+    branches: [
+      {
+        name: "CEG Anna Univ CS (TNEA)",
+        fullName: "College of Engineering Guindy CSE (12th PCM Cutoff)",
+        cutoff: 99,
+        cutoffsByCat: { GEN: 99, OBC: 98, SC: 93, ST: 91 },
+        basis: "PCM"
+      },
+      {
+        name: "MIT Chromepet / PSG Tech CS",
+        fullName: "MIT Chennai & PSG Coimbatore CSE (Board Cutoff)",
+        cutoff: 97,
+        cutoffsByCat: { GEN: 97, OBC: 95.5, SC: 89, ST: 86 },
+        basis: "PCM"
+      },
+      {
+        name: "SSN Chennai / Thiagarajar CS",
+        fullName: "SSN College of Engineering Merit Quota",
+        cutoff: 95,
+        cutoffsByCat: { GEN: 95, OBC: 93, SC: 84, ST: 80 },
+        basis: "PCM"
+      },
+      {
+        name: "St. Xavier's Mumbai / Kolkata",
+        fullName: "St. Xavier's Autonomous B.Sc. / Data Science Merit",
+        cutoff: 93,
+        cutoffsByCat: { GEN: 93, OBC: 90, SC: 82, ST: 78 },
+        basis: "Overall"
+      },
+      {
+        name: "Fergusson Pune / Loyola B.Sc.",
+        fullName: "Fergusson College Pune & Loyola Chennai Merit Cut",
+        cutoff: 90,
+        cutoffsByCat: { GEN: 90, OBC: 86, SC: 76, ST: 72 },
+        basis: "Overall"
+      },
+      {
+        name: "VIT / Manipal 10+2 Merit Aid",
+        fullName: "Private Univ Board Topper Scholarship Bracket",
+        cutoff: 88,
+        cutoffsByCat: { GEN: 88, OBC: 88, SC: 85, ST: 85 },
+        basis: "PCM"
+      },
+      {
+        name: "IIM Indore / Rohtak PI Weight",
+        fullName: "IPMAT Academic Consistency Safe Benchmark",
+        cutoff: 85,
+        cutoffsByCat: { GEN: 85, OBC: 80, SC: 72, ST: 68 },
+        basis: "Overall"
+      },
+      {
+        name: "Ashoka / Krea Holistic Safe",
+        fullName: "Liberal Arts & Sciences Academic Transcript Bar",
+        cutoff: 82,
+        cutoffsByCat: { GEN: 82, OBC: 80, SC: 75, ST: 75 },
+        basis: "Overall"
+      },
+      {
+        name: "VITEEE / MET / COMEDK Gate",
+        fullName: "Private Engg PCM Eligibility (60% GEN, 50% SC/ST)",
+        cutoff: 60,
+        cutoffsByCat: { GEN: 60, OBC: 55, SC: 50, ST: 50 },
+        basis: "PCM"
+      },
+      {
+        name: "NATA / JEE Arch Board Gate",
+        fullName: "Council of Architecture Pass Gate (50% GEN, 45% SC/ST)",
+        cutoff: 50,
+        cutoffsByCat: { GEN: 50, OBC: 45, SC: 45, ST: 45 },
+        basis: "PCM"
+      }
+    ]
+  },
+  {
+    id: "global-scholarships",
+    label: "Global & Scholarships",
+    metricType: "auto",
+    branches: [
+      {
+        name: "NUS / NTU Singapore Direct",
+        fullName: "National Univ of Singapore & NTU CBSE/ISC Cutoff",
+        cutoff: 97,
+        cutoffsByCat: { GEN: 97, OBC: 97, SC: 97, ST: 97 },
+        basis: "Overall"
+      },
+      {
+        name: "Imperial / UCL / Oxford STEM",
+        fullName: "UK Russell Group A*A*A Equivalent Board Requirement",
+        cutoff: 95,
+        cutoffsByCat: { GEN: 95, OBC: 95, SC: 95, ST: 95 },
+        basis: "PCM"
+      },
+      {
+        name: "Univ of Toronto / Waterloo CS",
+        fullName: "Canada Tier-1 Co-op CS Class 12 Board Requirement",
+        cutoff: 93,
+        cutoffsByCat: { GEN: 93, OBC: 93, SC: 93, ST: 93 },
+        basis: "PCM"
+      },
+      {
+        name: "INSPIRE SHE Scholarship Cut",
+        fullName: "DST INSPIRE Top 1% Board Cutoff (~INR 80k/yr)",
+        cutoff: 94,
+        cutoffsByCat: { GEN: 94, OBC: 92, SC: 86, ST: 82 },
+        basis: "Overall"
+      },
+      {
+        name: "National SC/ST Top-Class Aid",
+        fullName: "Central Sector Top-Class Education Scholarship Gate",
+        cutoff: 80,
+        cutoffsByCat: { GEN: 85, OBC: 80, SC: 65, ST: 60 },
+        basis: "Overall"
+      },
+      {
+        name: "TU Munich / ETH Global Track",
+        fullName: "European Technical Universities Board Benchmark",
+        cutoff: 90,
+        cutoffsByCat: { GEN: 90, OBC: 90, SC: 90, ST: 90 },
+        basis: "PCM"
+      },
+      {
+        name: "US Top-30 Holistic Transcript",
+        fullName: "US Ivy / UC Berkeley Class 12 Transcript Benchmark",
+        cutoff: 90,
+        cutoffsByCat: { GEN: 90, OBC: 90, SC: 90, ST: 90 },
+        basis: "Overall"
+      },
+      {
+        name: "UNSW / Univ of Melbourne STEM",
+        fullName: "Australia Go8 Direct Entry Class 12 Percentage",
+        cutoff: 85,
+        cutoffsByCat: { GEN: 85, OBC: 85, SC: 85, ST: 85 },
+        basis: "Overall"
+      },
+      {
+        name: "DGCA Commercial Pilot Gate",
+        fullName: "DGCA CPL Class 12 Physics & Maths 51%+ Requirement",
+        cutoff: 51,
+        cutoffsByCat: { GEN: 51, OBC: 51, SC: 51, ST: 51 },
+        basis: "PCM"
+      },
+      {
+        name: "CLAT / AILET / NCHMCT Gate",
+        fullName: "NLUs & IHM Board Eligibility (45% GEN/OBC, 40% SC/ST)",
+        cutoff: 45,
+        cutoffsByCat: { GEN: 45, OBC: 45, SC: 40, ST: 40 },
+        basis: "Overall"
+      }
+    ]
+  }
+];
+
+const SPECIFIC_PREDICTOR_CONFIGS = {
+  "bitsat": {
+    title: "BITSAT Score & B.E. Branch Predictor",
+    subtitle: "Verified against latest BITS Pilani, Goa & Hyderabad official score cutoffs (+3 correct, -1 wrong, 390 base / 426 with bonus).",
+    hasCategoryReservation: false,
+    reservationNote: "Pure Merit Admission — BITS Pilani has no SC/ST/OBC reservation; cutoffs apply equally to all categories.",
+    maxQuestions: 130,
+    correctMarks: 3,
+    wrongMarks: 1,
+    maxBaseScore: 390,
+    scaleMax: 430,
+    borderlineMargin: 10,
+    unitLabel: "pts",
+    optionTypeLabel: "Branches",
+    defaultAttempted: 115,
+    defaultAccuracy: 85,
+    bonusConfig: {
+      label: "Attempt 12 Bonus Questions (+36 max marks)",
+      subtextUnlock: "Unlocked! Toggle switch to simulate bonus section",
+      subtextLocked: "Attempt all 130 main questions (or toggle directly) to simulate +36 bonus marks",
+      bonusQuestions: 12
+    },
+    tabs: [
+      {
+        id: "pilani",
+        label: "Pilani",
+        branches: [
+          { name: "Computer Science", fullName: "B.E. Computer Science (Pilani · 2024: 327 | 2025: 304)", cutoff: 315 },
+          { name: "Math & Computing", fullName: "B.E. Mathematics & Computing (Pilani · Official: 295–312)", cutoff: 302 },
+          { name: "Electronics & Comm.", fullName: "B.E. Electronics & Communication (Pilani · Official: 285–298)", cutoff: 290 },
+          { name: "Electrical & Elec.", fullName: "B.E. Electrical & Electronics (Pilani · Official: 260–280)", cutoff: 268 },
+          { name: "Electronics & Instr.", fullName: "B.E. Electronics & Instrumentation (Pilani · Official: 250–270)", cutoff: 258 },
+          { name: "M.Sc. Economics Dual", fullName: "M.Sc. Economics + B.E. Dual Degree (Pilani · Official: 251–262)", cutoff: 254 },
+          { name: "Mechanical Eng.", fullName: "B.E. Mechanical Engineering (Pilani · Official: 235–254)", cutoff: 242 },
+          { name: "Chemical Eng.", fullName: "B.E. Chemical Engineering (Pilani · Official: 210–232)", cutoff: 218 },
+          { name: "Manufacturing Eng.", fullName: "B.E. Manufacturing Engineering (Pilani · Official: 211–226)", cutoff: 215 },
+          { name: "Civil / Env. Eng.", fullName: "B.E. Civil & Environmental Eng. (Pilani · Official: 203–222)", cutoff: 206 }
+        ]
+      },
+      {
+        id: "goa",
+        label: "Goa",
+        branches: [
+          { name: "Computer Science", fullName: "B.E. Computer Science (Goa · 2024: 301 | 2025: 274)", cutoff: 286 },
+          { name: "Math & Computing", fullName: "B.E. Mathematics & Computing (Goa · Official: 268–286)", cutoff: 276 },
+          { name: "Elec. & Computer", fullName: "B.E. Electronics & Computer Eng. (Goa · Official: 262–278)", cutoff: 268 },
+          { name: "Electronics & Comm.", fullName: "B.E. Electronics & Communication (Goa · Official: 255–272)", cutoff: 262 },
+          { name: "Electrical & Elec.", fullName: "B.E. Electrical & Electronics (Goa · Official: 243–258)", cutoff: 248 },
+          { name: "M.Sc. Economics Dual", fullName: "M.Sc. Economics + B.E. Dual Degree (Goa · Official: 237–248)", cutoff: 240 },
+          { name: "Electronics & Instr.", fullName: "B.E. Electronics & Instrumentation (Goa · Official: 234–246)", cutoff: 238 },
+          { name: "Mechanical Eng.", fullName: "B.E. Mechanical Engineering (Goa · Official: 223–236)", cutoff: 226 },
+          { name: "M.Sc. Math / Semicon", fullName: "M.Sc. Mathematics / Semiconductor Dual (Goa · Official: 216–225)", cutoff: 220 },
+          { name: "Chemical / Bio Dual", fullName: "B.E. Chemical & M.Sc. Bio Dual (Goa · Official: 203–206)", cutoff: 205 }
+        ]
+      },
+      {
+        id: "hyderabad",
+        label: "Hyderabad",
+        branches: [
+          { name: "Computer Science", fullName: "B.E. Computer Science (Hyderabad · 2024: 298 | 2025: 270)", cutoff: 282 },
+          { name: "Math & Computing", fullName: "B.E. Mathematics & Computing (Hyderabad · Official: 266–282)", cutoff: 272 },
+          { name: "Electronics & Comm.", fullName: "B.E. Electronics & Communication (Hyderabad · Official: 256–268)", cutoff: 260 },
+          { name: "Electrical & Elec.", fullName: "B.E. Electrical & Electronics (Hyderabad · Official: 239–254)", cutoff: 245 },
+          { name: "Electronics & Instr.", fullName: "B.E. Electronics & Instrumentation (Hyderabad · Official: 232–242)", cutoff: 235 },
+          { name: "M.Sc. Economics Dual", fullName: "M.Sc. Economics + B.E. Dual (Hyderabad · Official: 231–240)", cutoff: 234 },
+          { name: "Mechanical Eng.", fullName: "B.E. Mechanical Engineering (Hyderabad · Official: 214–228)", cutoff: 220 },
+          { name: "M.Sc. Math / Physics", fullName: "M.Sc. Mathematics & Physics Dual (Hyderabad · Official: 209–212)", cutoff: 210 },
+          { name: "Chemical / Civil Eng.", fullName: "B.E. Chemical & Civil Engineering (Hyderabad · Official: 203–205)", cutoff: 204 },
+          { name: "B.Pharm / Env. Eng.", fullName: "B.Pharm & B.E. Environmental (Hyderabad · Official: 151–181)", cutoff: 168 }
+        ]
+      }
+    ]
+  },
+  "jee-main-adv": {
+    title: "JEE Main Score & NIT / IIIT / IIT Qualifier Predictor",
+    subtitle: "Verified 2025 NTA & JoSAA cutoffs (+4 correct, -1 wrong, 300 max) with GEN, OBC-NCL/EWS, SC, and ST merit relaxation.",
+    hasCategoryReservation: true,
+    reservationNote: "2025 Official Qualifying %ile: GEN 93.10%ile (~112 pts) · EWS/OBC 79.4–80.3%ile (~78 pts) · SC 61.15%ile (~52 pts) · ST 47.90%ile (~40 pts)",
+    maxQuestions: 75,
+    correctMarks: 4,
+    wrongMarks: 1,
+    maxBaseScore: 300,
+    scaleMax: 300,
+    borderlineMargin: 10,
+    unitLabel: "pts",
+    optionTypeLabel: "Institutes",
+    defaultAttempted: 56,
+    defaultAccuracy: 84,
+    bonusConfig: {
+      label: "Tough Shift Percentile Normalization Boost (+12 marks eqv.)",
+      subtextUnlock: "Simulating tougher paper percentile normalization boost",
+      subtextLocked: "Toggle to simulate tough shift percentile normalization (+12 pts)",
+      flatBoost: 12
+    },
+    tabs: [
+      {
+        id: "top-nits",
+        label: "Top NITs (CSE/ECE)",
+        branches: [
+          { name: "NIT Trichy CSE", fullName: "NIT Tiruchirappalli CSE (~99.85%ile GEN)", cutoff: 246, cutoffsByCat: { GEN: 246, OBC: 224, SC: 168, ST: 148 } },
+          { name: "NIT Surathkal CSE", fullName: "NIT Karnataka Surathkal CSE (~99.78%ile GEN)", cutoff: 236, cutoffsByCat: { GEN: 236, OBC: 214, SC: 158, ST: 138 } },
+          { name: "NIT Warangal CSE", fullName: "NIT Warangal Computer Science (~99.70%ile GEN)", cutoff: 228, cutoffsByCat: { GEN: 228, OBC: 206, SC: 150, ST: 132 } },
+          { name: "NIT Trichy ECE", fullName: "NIT Tiruchirappalli Electronics & Comm.", cutoff: 212, cutoffsByCat: { GEN: 212, OBC: 190, SC: 138, ST: 120 } },
+          { name: "MNNIT Allahabad CSE", fullName: "MNNIT Allahabad Computer Science", cutoff: 206, cutoffsByCat: { GEN: 206, OBC: 184, SC: 132, ST: 115 } },
+          { name: "MNIT Jaipur / Rourkela CS", fullName: "MNIT Jaipur & NIT Rourkela CSE", cutoff: 196, cutoffsByCat: { GEN: 196, OBC: 175, SC: 125, ST: 108 } },
+          { name: "VNIT Nagpur / Calicut CS", fullName: "VNIT Nagpur & NIT Calicut CSE", cutoff: 184, cutoffsByCat: { GEN: 184, OBC: 164, SC: 116, ST: 100 } },
+          { name: "NIT Trichy / Surathkal Mech", fullName: "Top 3 NIT Mechanical / Chemical Eng.", cutoff: 166, cutoffsByCat: { GEN: 166, OBC: 146, SC: 102, ST: 86 } },
+          { name: "Mid-NIT Circuital (ECE/EE)", fullName: "NIT Bhopal / Jalandhar / Silchar / Agartala ECE & CS", cutoff: 148, cutoffsByCat: { GEN: 148, OBC: 128, SC: 88, ST: 72 } },
+          { name: "JEE Advanced Cutoff Gate", fullName: "NTA 2025 Official JEE Advanced Qualifying Score", cutoff: 112, cutoffsByCat: { GEN: 112, OBC: 78, SC: 52, ST: 40 } }
+        ]
+      },
+      {
+        id: "iiits-dtu",
+        label: "IIITs & DTU / NSUT",
+        branches: [
+          { name: "IIIT Hyderabad CSE", fullName: "IIIT Hyderabad B.Tech CSE (Pure JEE Main Mode)", cutoff: 254, cutoffsByCat: { GEN: 254, OBC: 254, SC: 254, ST: 254 } },
+          { name: "IIIT Allahabad IT / AI", fullName: "IIIT Allahabad Information Technology", cutoff: 216, cutoffsByCat: { GEN: 216, OBC: 192, SC: 138, ST: 118 } },
+          { name: "IIIT Bangalore iMTech CS", fullName: "IIIT Bangalore Integrated M.Tech CSE", cutoff: 210, cutoffsByCat: { GEN: 210, OBC: 210, SC: 210, ST: 210 } },
+          { name: "DTU / NSUT Delhi CSE", fullName: "Delhi Technological Univ & NSUT CSE (JAC)", cutoff: 202, cutoffsByCat: { GEN: 202, OBC: 172, SC: 118, ST: 96 } },
+          { name: "IIIT Delhi CS + AI", fullName: "IIIT Delhi Computer Science & AI", cutoff: 192, cutoffsByCat: { GEN: 192, OBC: 164, SC: 110, ST: 90 } },
+          { name: "IIIT Gwalior IT + MBA", fullName: "ABV-IIIT Gwalior 5-Yr Integrated IT", cutoff: 176, cutoffsByCat: { GEN: 176, OBC: 154, SC: 105, ST: 88 } },
+          { name: "DTU / NSUT ECE & M&C", fullName: "DTU & NSUT Mathematics & Computing / ECE", cutoff: 170, cutoffsByCat: { GEN: 170, OBC: 144, SC: 96, ST: 78 } },
+          { name: "IIIT Lucknow CS & AI", fullName: "IIIT Lucknow Computer Science & AI", cutoff: 164, cutoffsByCat: { GEN: 164, OBC: 142, SC: 95, ST: 78 } },
+          { name: "IIIT Jabalpur / Kancheepuram", fullName: "IIITDM Jabalpur & Kancheepuram CSE", cutoff: 146, cutoffsByCat: { GEN: 146, OBC: 126, SC: 84, ST: 68 } },
+          { name: "PEC Chandigarh / BIT Mesra", fullName: "PEC Chandigarh & BIT Mesra Core Branches", cutoff: 130, cutoffsByCat: { GEN: 130, OBC: 112, SC: 74, ST: 58 } }
+        ]
+      },
+      {
+        id: "iit-adv-eqv",
+        label: "IIT Target Readiness",
+        branches: [
+          { name: "Old IIT CSE / MnC Zone", fullName: "Top 5 IIT CSE / MnC Readiness Benchmark", cutoff: 260, cutoffsByCat: { GEN: 260, OBC: 235, SC: 182, ST: 162 } },
+          { name: "Top 7 IIT Electrical / ECE", fullName: "IIT Bombay/Delhi/Madras/Kanpur EE Zone", cutoff: 232, cutoffsByCat: { GEN: 232, OBC: 208, SC: 158, ST: 138 } },
+          { name: "2nd-Gen IIT CSE (Hyd/BHU)", fullName: "IIT Hyderabad, IIT BHU & IIT Indore CSE", cutoff: 220, cutoffsByCat: { GEN: 220, OBC: 196, SC: 146, ST: 128 } },
+          { name: "Old IIT Mechanical / Aero", fullName: "Top 7 IIT Mechanical, Aerospace & Chemical", cutoff: 202, cutoffsByCat: { GEN: 202, OBC: 178, SC: 130, ST: 112 } },
+          { name: "2nd-Gen IIT Circuital", fullName: "IIT Roorkee/Guwahati/BHU/Ropar ECE & EE", cutoff: 188, cutoffsByCat: { GEN: 188, OBC: 166, SC: 120, ST: 102 } },
+          { name: "IISc / IIST Space Readiness", fullName: "IISc B.Tech & IIST Aerospace Target Bar", cutoff: 178, cutoffsByCat: { GEN: 178, OBC: 156, SC: 112, ST: 95 } },
+          { name: "3rd-Gen IIT CSE", fullName: "IIT Dharwad, Tirupati, Goa & Bhilai CSE", cutoff: 164, cutoffsByCat: { GEN: 164, OBC: 144, SC: 102, ST: 86 } },
+          { name: "Old IIT Civil / Metallurgy", fullName: "Top 7 IIT Civil, Biotech & Material Science", cutoff: 150, cutoffsByCat: { GEN: 150, OBC: 130, SC: 90, ST: 75 } },
+          { name: "3rd-Gen IIT Core Branches", fullName: "New IIT Mechanical / Electrical / Civil", cutoff: 136, cutoffsByCat: { GEN: 136, OBC: 116, SC: 78, ST: 64 } },
+          { name: "JEE Advanced Safe Qualifier", fullName: "Safe Margin Above JEE Adv Qualifying Cut", cutoff: 118, cutoffsByCat: { GEN: 118, OBC: 84, SC: 58, ST: 45 } }
+        ]
+      }
+    ]
+  },
+  "neet-ug": {
+    title: "NEET-UG Score & Medical College Cutoff Predictor",
+    subtitle: "Verified against latest MCC AIQ & State GMC MBBS/BDS/BAMS cutoffs (+4 correct, -1 wrong, 720 max) across GEN, OBC/EWS, SC, and ST.",
+    hasCategoryReservation: true,
+    reservationNote: "Includes latest MCC All-India Quota (AIQ) & State GMC relaxations across UR, OBC/EWS, SC (15%), and ST (7.5%).",
+    maxQuestions: 180,
+    correctMarks: 4,
+    wrongMarks: 1,
+    maxBaseScore: 720,
+    scaleMax: 720,
+    borderlineMargin: 15,
+    unitLabel: "pts",
+    optionTypeLabel: "Colleges",
+    defaultAttempted: 165,
+    defaultAccuracy: 88,
+    bonusConfig: {
+      label: "NCERT Biology 360/360 Revision Boost (+20 pts)",
+      subtextUnlock: "Simulating zero-error NCERT Biology line-by-line mastery",
+      subtextLocked: "Toggle to simulate +20 marks from full Biology accuracy",
+      flatBoost: 20
+    },
+    tabs: [
+      {
+        id: "aiims-central",
+        label: "AIIMS & Central",
+        branches: [
+          { name: "AIIMS New Delhi MBBS", fullName: "All India Institute of Medical Sciences, New Delhi", cutoff: 700, cutoffsByCat: { GEN: 700, OBC: 690, SC: 645, ST: 620 } },
+          { name: "VMMC & MAMC New Delhi", fullName: "Vardhman Mahavir & Maulana Azad Medical College", cutoff: 688, cutoffsByCat: { GEN: 688, OBC: 676, SC: 620, ST: 590 } },
+          { name: "JIPMER Puducherry / AIIMS-J", fullName: "JIPMER Puducherry & AIIMS Jodhpur MBBS", cutoff: 678, cutoffsByCat: { GEN: 678, OBC: 668, SC: 602, ST: 572 } },
+          { name: "AIIMS Bhubaneswar / Bhopal", fullName: "AIIMS Bhubaneswar & AIIMS Bhopal MBBS", cutoff: 670, cutoffsByCat: { GEN: 670, OBC: 660, SC: 590, ST: 560 } },
+          { name: "IMS BHU Varanasi / KGMU", fullName: "IMS BHU Varanasi & KGMU Lucknow (AIQ)", cutoff: 662, cutoffsByCat: { GEN: 662, OBC: 652, SC: 578, ST: 548 } },
+          { name: "AIIMS Rishikesh / Raipur", fullName: "AIIMS Rishikesh, Raipur & Nagpur MBBS", cutoff: 652, cutoffsByCat: { GEN: 652, OBC: 642, SC: 562, ST: 532 } },
+          { name: "AFMC Pune MBBS", fullName: "Armed Forces Medical College Pune (+ ToELR)", cutoff: 640, cutoffsByCat: { GEN: 640, OBC: 640, SC: 555, ST: 530 } },
+          { name: "Newer AIIMS (Kalyani/Guwahati)", fullName: "AIIMS Kalyani, Guwahati, Rajkot & Deoghar", cutoff: 625, cutoffsByCat: { GEN: 625, OBC: 616, SC: 528, ST: 495 } },
+          { name: "ESIC Medical Colleges (AIQ)", fullName: "ESIC Faridabad, Bengaluru & Hyderabad MBBS", cutoff: 610, cutoffsByCat: { GEN: 610, OBC: 600, SC: 505, ST: 472 } },
+          { name: "AIQ Govt MBBS Closing Cut", fullName: "15% All-India Quota Last Govt MBBS Seat (2025/2024 Avg)", cutoff: 585, cutoffsByCat: { GEN: 585, OBC: 580, SC: 485, ST: 460 } }
+        ]
+      },
+      {
+        id: "state-gmc",
+        label: "State Quota GMCs",
+        branches: [
+          { name: "Seth GS (KEM) Mumbai", fullName: "Seth GS Medical College & KEM Hospital Mumbai", cutoff: 665, cutoffsByCat: { GEN: 665, OBC: 650, SC: 575, ST: 515 } },
+          { name: "SMS Jaipur / BJMC Ahmedabad", fullName: "SMS Medical College Jaipur & BJMC Ahmedabad", cutoff: 655, cutoffsByCat: { GEN: 655, OBC: 644, SC: 562, ST: 510 } },
+          { name: "MMC Chennai / BMC Bengaluru", fullName: "Madras Medical College & Bangalore Medical College", cutoff: 648, cutoffsByCat: { GEN: 648, OBC: 636, SC: 550, ST: 502 } },
+          { name: "IPGMER / MCK Kolkata", fullName: "Medical College Kolkata & SSKM Hospital", cutoff: 638, cutoffsByCat: { GEN: 638, OBC: 622, SC: 535, ST: 480 } },
+          { name: "Top Tier-2 City State GMCs", fullName: "Govt Medical Colleges in Pune, Nagpur, Mysore, Indore", cutoff: 605, cutoffsByCat: { GEN: 605, OBC: 595, SC: 495, ST: 455 } },
+          { name: "State Quota Safe GMC Cut", fullName: "85% State Quota Govt MBBS Safe Closing Score", cutoff: 565, cutoffsByCat: { GEN: 565, OBC: 555, SC: 455, ST: 425 } },
+          { name: "NE / Low-Cutoff State GMCs", fullName: "Agartala GMC, Assam, HP, MP & Karnataka State GMCs", cutoff: 535, cutoffsByCat: { GEN: 535, OBC: 525, SC: 435, ST: 400 } },
+          { name: "Semi-Govt / Society MBBS", fullName: "Govt-Aided & State Society Medical Colleges", cutoff: 520, cutoffsByCat: { GEN: 520, OBC: 510, SC: 420, ST: 385 } },
+          { name: "Top KMC Manipal / Deemed", fullName: "Kasturba Medical College Manipal (Merit Seat)", cutoff: 510, cutoffsByCat: { GEN: 510, OBC: 510, SC: 510, ST: 510 } },
+          { name: "BAMS / BVSc Veterinary Govt", fullName: "BHU/NIA Govt BAMS & IVRI Govt Veterinary (BVSc)", cutoff: 490, cutoffsByCat: { GEN: 490, OBC: 480, SC: 395, ST: 365 } }
+        ]
+      },
+      {
+        id: "allied-medical",
+        label: "BDS / BAMS / Vet / Nursing",
+        branches: [
+          { name: "MAIDS Delhi / Nair BDS", fullName: "Top Central & Metro Govt Dental Colleges (BDS)", cutoff: 565, cutoffsByCat: { GEN: 565, OBC: 552, SC: 460, ST: 430 } },
+          { name: "IVRI Bareilly / TANUVAS Vet", fullName: "Premier Govt Veterinary Colleges (B.V.Sc. & A.H.)", cutoff: 530, cutoffsByCat: { GEN: 530, OBC: 518, SC: 425, ST: 395 } },
+          { name: "AIQ Govt BDS Closing Cut", fullName: "All-India Quota Govt Dental Surgery Closing (2025)", cutoff: 505, cutoffsByCat: { GEN: 505, OBC: 500, SC: 410, ST: 380 } },
+          { name: "NIA Jaipur / BHU BAMS", fullName: "National Institute of Ayurveda & BHU BAMS", cutoff: 495, cutoffsByCat: { GEN: 495, OBC: 485, SC: 395, ST: 365 } },
+          { name: "AIQ B.Sc. Nursing (NEET)", fullName: "Central B.Sc. (Hons.) Nursing via NEET Score (2025)", cutoff: 470, cutoffsByCat: { GEN: 470, OBC: 465, SC: 382, ST: 355 } },
+          { name: "State Govt BAMS Colleges", fullName: "Government Ayurvedic Medical Colleges", cutoff: 445, cutoffsByCat: { GEN: 445, OBC: 435, SC: 355, ST: 325 } },
+          { name: "NIH Kolkata / Govt BHMS", fullName: "National Institute of Homoeopathy & Govt BHMS", cutoff: 410, cutoffsByCat: { GEN: 410, OBC: 398, SC: 325, ST: 295 } },
+          { name: "Govt Physiotherapy (BPT)", fullName: "KEM / Seth GS / Pt. DDU Govt BPT Seats", cutoff: 390, cutoffsByCat: { GEN: 390, OBC: 375, SC: 305, ST: 275 } },
+          { name: "Private MBBS Management Cut", fullName: "Private Medical College State Management Quota", cutoff: 340, cutoffsByCat: { GEN: 340, OBC: 330, SC: 260, ST: 240 } },
+          { name: "NEET-UG Qualifying Cutoff", fullName: "NMC Official Qualifying Cutoff Score", cutoff: 162, cutoffsByCat: { GEN: 162, OBC: 127, SC: 127, ST: 127 } }
+        ]
+      }
+    ]
+  },
+  "iiser-iat": {
+    title: "IISER Aptitude Test (IAT) Score & Campus Predictor",
+    subtitle: "Verified 2024–2025 IAT cutoffs (+4 correct, -1 wrong, 240 max) for IISc Bengaluru, IIT Madras, and all 7 IISERs across GEN, OBC, SC, and ST.",
+    hasCategoryReservation: true,
+    reservationNote: "Official IAT Reservation: GEN, OBC-NCL (27%), SC (15%), ST (7.5%). Board gate is 60% for GEN/OBC and 55% for SC/ST.",
+    maxQuestions: 60,
+    correctMarks: 4,
+    wrongMarks: 1,
+    maxBaseScore: 240,
+    scaleMax: 240,
+    borderlineMargin: 8,
+    unitLabel: "pts",
+    optionTypeLabel: "Campuses",
+    defaultAttempted: 44,
+    defaultAccuracy: 84,
+    bonusConfig: {
+      label: "Attempt 4th Subject Section (+20 net marks)",
+      subtextUnlock: "Simulating 5 extra correct questions in your 4th Bio/Math section",
+      subtextLocked: "Toggle to simulate attempting 5 high-accuracy questions in your 4th subject",
+      flatBoost: 20
+    },
+    tabs: [
+      {
+        id: "flagship-research",
+        label: "IISc & Top IISERs",
+        branches: [
+          { name: "IISc Bengaluru B.S.", fullName: "Indian Institute of Science Bengaluru (4-Yr BS)", cutoff: 205, cutoffsByCat: { GEN: 205, OBC: 185, SC: 155, ST: 138 } },
+          { name: "IIT Madras BS Medical Sci.", fullName: "IIT Madras BS in Medical Sciences & Engineering", cutoff: 188, cutoffsByCat: { GEN: 188, OBC: 170, SC: 140, ST: 122 } },
+          { name: "IISER Pune BS-MS", fullName: "IISER Pune 5-Year BS-MS Dual Degree", cutoff: 156, cutoffsByCat: { GEN: 156, OBC: 136, SC: 102, ST: 84 } },
+          { name: "IISER Kolkata BS-MS", fullName: "IISER Kolkata 5-Year BS-MS Dual Degree", cutoff: 142, cutoffsByCat: { GEN: 142, OBC: 122, SC: 92, ST: 76 } },
+          { name: "IISER Bhopal B.Tech DS/Eng", fullName: "IISER Bhopal 4-Yr B.Tech Engineering & Data Science", cutoff: 140, cutoffsByCat: { GEN: 140, OBC: 120, SC: 90, ST: 75 } },
+          { name: "IISER Mohali BS-MS", fullName: "IISER Mohali 5-Year BS-MS Dual Degree", cutoff: 128, cutoffsByCat: { GEN: 128, OBC: 110, SC: 82, ST: 68 } },
+          { name: "IISER Bhopal BS-MS", fullName: "IISER Bhopal 5-Year BS-MS Natural Sciences", cutoff: 124, cutoffsByCat: { GEN: 124, OBC: 106, SC: 78, ST: 65 } },
+          { name: "IISER Thiruvananthapuram", fullName: "IISER TVM 5-Year BS-MS Dual Degree", cutoff: 118, cutoffsByCat: { GEN: 118, OBC: 100, SC: 74, ST: 62 } },
+          { name: "IISER Tirupati BS-MS", fullName: "IISER Tirupati 5-Year BS-MS Dual Degree", cutoff: 112, cutoffsByCat: { GEN: 112, OBC: 94, SC: 68, ST: 56 } },
+          { name: "IISER Berhampur BS-MS", fullName: "IISER Berhampur 5-Year BS-MS Closing Cutoff", cutoff: 106, cutoffsByCat: { GEN: 106, OBC: 88, SC: 64, ST: 52 } }
+        ]
+      },
+      {
+        id: "round-closing",
+        label: "Final Round Cutoffs",
+        branches: [
+          { name: "IISc Bengaluru (Last Round)", fullName: "IISc Bengaluru Final Counselling Round Cut", cutoff: 194, cutoffsByCat: { GEN: 194, OBC: 175, SC: 145, ST: 128 } },
+          { name: "IISER Pune (Last Round)", fullName: "IISER Pune Final Round Closing Score", cutoff: 144, cutoffsByCat: { GEN: 144, OBC: 124, SC: 92, ST: 75 } },
+          { name: "IISER Kolkata (Last Round)", fullName: "IISER Kolkata Final Round Closing Score", cutoff: 130, cutoffsByCat: { GEN: 130, OBC: 112, SC: 82, ST: 68 } },
+          { name: "IISER Bhopal Econ (4-Yr BS)", fullName: "IISER Bhopal B.S. Economic Sciences", cutoff: 125, cutoffsByCat: { GEN: 125, OBC: 108, SC: 78, ST: 64 } },
+          { name: "IISER Mohali (Last Round)", fullName: "IISER Mohali Final Round Closing Score", cutoff: 118, cutoffsByCat: { GEN: 118, OBC: 100, SC: 72, ST: 60 } },
+          { name: "IISER Bhopal (Last Round)", fullName: "IISER Bhopal Final Round Closing Score", cutoff: 115, cutoffsByCat: { GEN: 115, OBC: 98, SC: 70, ST: 58 } },
+          { name: "IISER TVM (Last Round)", fullName: "IISER Thiruvananthapuram Final Round Cut", cutoff: 110, cutoffsByCat: { GEN: 110, OBC: 92, SC: 65, ST: 54 } },
+          { name: "IISER Tirupati (Last Round)", fullName: "IISER Tirupati Final Round Closing Score", cutoff: 104, cutoffsByCat: { GEN: 104, OBC: 86, SC: 60, ST: 50 } },
+          { name: "IISER Berhampur (Last Round)", fullName: "IISER Berhampur Final Spot Round Cut", cutoff: 98, cutoffsByCat: { GEN: 98, OBC: 82, SC: 56, ST: 46 } },
+          { name: "INSPIRE Fellowship Safe Bar", fullName: "Safe IAT Score for INSPIRE Scholarship", cutoff: 125, cutoffsByCat: { GEN: 125, OBC: 110, SC: 85, ST: 75 } }
+        ]
+      },
+      {
+        id: "major-tracks",
+        label: "Major Selection Bar",
+        branches: [
+          { name: "Data Science & AI Major", fullName: "IISER Kolkata/Bhopal/Pune Data Science Major", cutoff: 148, cutoffsByCat: { GEN: 148, OBC: 128, SC: 96, ST: 80 } },
+          { name: "Physics & Astrophysics", fullName: "IISER Pune/Kolkata Theoretical & Astro Physics", cutoff: 140, cutoffsByCat: { GEN: 140, OBC: 120, SC: 90, ST: 74 } },
+          { name: "Computational Biology", fullName: "IISER Pune/Mohali Genetics & Comp. Biology", cutoff: 132, cutoffsByCat: { GEN: 132, OBC: 114, SC: 84, ST: 70 } },
+          { name: "Mathematics & Quant Sci.", fullName: "IISER Kolkata/Mohali Pure & Applied Math", cutoff: 128, cutoffsByCat: { GEN: 128, OBC: 110, SC: 80, ST: 66 } },
+          { name: "Economic & Stat Sciences", fullName: "IISER Bhopal & Tirupati Economic Sciences", cutoff: 126, cutoffsByCat: { GEN: 126, OBC: 108, SC: 78, ST: 64 } },
+          { name: "Chemical & Material Sci.", fullName: "IISER Organic, Quantum & Materials Chemistry", cutoff: 118, cutoffsByCat: { GEN: 118, OBC: 100, SC: 72, ST: 60 } },
+          { name: "Biological Sciences Core", fullName: "All IISERs Molecular & Cellular Biology", cutoff: 112, cutoffsByCat: { GEN: 112, OBC: 95, SC: 68, ST: 56 } },
+          { name: "Earth & Climate Sciences", fullName: "IISER Kolkata/Pune Earth & Planetary Sciences", cutoff: 106, cutoffsByCat: { GEN: 106, OBC: 88, SC: 62, ST: 52 } },
+          { name: "IACS Kolkata / IIEST Track", fullName: "IACS Integrated BS-MS via IAT Score", cutoff: 136, cutoffsByCat: { GEN: 136, OBC: 118, SC: 88, ST: 72 } },
+          { name: "BS-MS General Entry Gate", fullName: "Minimum Score for Any IISER Seat", cutoff: 98, cutoffsByCat: { GEN: 98, OBC: 82, SC: 56, ST: 46 } }
+        ]
+      }
+    ]
+  },
+  "ipmat-jipmat": {
+    title: "IPMAT (IIM Indore / Rohtak / Ranchi) Score Predictor",
+    subtitle: "Verified 2024–2025 IIM cutoffs (+4 correct, -1 wrong, 360 max) across GEN, NC-OBC/EWS, SC, and ST categories.",
+    hasCategoryReservation: true,
+    reservationNote: "Official IIM Reservation: GEN, EWS (10%), NC-OBC (27%), SC (15%), ST (7.5%).",
+    maxQuestions: 90,
+    correctMarks: 4,
+    wrongMarks: 1,
+    maxBaseScore: 360,
+    scaleMax: 360,
+    borderlineMargin: 12,
+    unitLabel: "pts",
+    optionTypeLabel: "IIM Campuses",
+    defaultAttempted: 62,
+    defaultAccuracy: 82,
+    bonusConfig: {
+      label: "Short-Answer Quant Zero-Negative Boost (+16 pts)",
+      subtextUnlock: "Simulating 4 correct Short Answer (SA) questions with 0 negative marking",
+      subtextLocked: "Toggle to simulate +16 marks from Short-Answer Quant section",
+      flatBoost: 16
+    },
+    tabs: [
+      {
+        id: "iim-indore-ranchi",
+        label: "IIM Indore & Ranchi",
+        branches: [
+          { name: "IIM Indore Safe Conversion", fullName: "IIM Indore 5-Yr IPM Final Convert Safe Score", cutoff: 206, cutoffsByCat: { GEN: 206, OBC: 152, SC: 114, ST: 86 } },
+          { name: "IIM Ranchi Safe Conversion", fullName: "IIM Ranchi IPM Final Convert Safe Score", cutoff: 192, cutoffsByCat: { GEN: 192, OBC: 142, SC: 105, ST: 78 } },
+          { name: "IIM Indore PI Shortlist Cut", fullName: "IIM Indore Official PI Cutoff (GEN ~176, OBC ~126, SC ~90)", cutoff: 176, cutoffsByCat: { GEN: 176, OBC: 126, SC: 90, ST: 65 } },
+          { name: "IIM Ranchi PI Shortlist Cut", fullName: "IIM Ranchi Personal Interview Qualifying Cut", cutoff: 168, cutoffsByCat: { GEN: 168, OBC: 120, SC: 84, ST: 60 } },
+          { name: "IIFT Kakinada IPM", fullName: "Indian Institute of Foreign Trade 5-Yr IPM", cutoff: 160, cutoffsByCat: { GEN: 160, OBC: 116, SC: 80, ST: 58 } },
+          { name: "IIM Amritsar / Shillong IPM", fullName: "New IIM Integrated Management Programs", cutoff: 154, cutoffsByCat: { GEN: 154, OBC: 112, SC: 76, ST: 55 } },
+          { name: "IIM Sirmaur BMS", fullName: "IIM Sirmaur 4-Year Bachelor of Management", cutoff: 144, cutoffsByCat: { GEN: 144, OBC: 104, SC: 70, ST: 50 } },
+          { name: "NALSAR Hyderabad IPM", fullName: "NALSAR DoMS 5-Year BBA+MBA via IPMAT", cutoff: 138, cutoffsByCat: { GEN: 138, OBC: 102, SC: 72, ST: 55 } },
+          { name: "NIRMA / TAPMI IPM", fullName: "Nirma Univ & TAPMI 5-Yr BBA-MBA (Merit)", cutoff: 128, cutoffsByCat: { GEN: 128, OBC: 128, SC: 128, ST: 128 } },
+          { name: "IFMR Krea / Alliance IPM", fullName: "IFMR GSB Krea University 5-Yr BBA-MBA", cutoff: 116, cutoffsByCat: { GEN: 116, OBC: 116, SC: 116, ST: 116 } }
+        ]
+      },
+      {
+        id: "rohtak-jipmat",
+        label: "Rohtak, Jammu & BG",
+        branches: [
+          { name: "IIM Rohtak Safe Convert", fullName: "IIM Rohtak IPM Scaled Safe Score (2025 Cut: 381/480)", cutoff: 285, cutoffsByCat: { GEN: 285, OBC: 223, SC: 172, ST: 104 } },
+          { name: "IIM Jammu Safe Convert", fullName: "IIM Jammu 5-Yr IPM (JIPMAT Scaled Eqv.)", cutoff: 262, cutoffsByCat: { GEN: 262, OBC: 215, SC: 165, ST: 120 } },
+          { name: "IIM Bodh Gaya Safe Convert", fullName: "IIM Bodh Gaya 5-Yr IPM (JIPMAT Scaled Eqv.)", cutoff: 252, cutoffsByCat: { GEN: 252, OBC: 205, SC: 155, ST: 112 } },
+          { name: "IIM Rohtak PI Call Cut", fullName: "IIM Rohtak Official PI Shortlist (Scaled to /360)", cutoff: 268, cutoffsByCat: { GEN: 268, OBC: 208, SC: 160, ST: 98 } },
+          { name: "JIPMAT Jammu PI Cut", fullName: "IIM Jammu JIPMAT Qualifying Cutoff", cutoff: 245, cutoffsByCat: { GEN: 245, OBC: 198, SC: 148, ST: 105 } },
+          { name: "JIPMAT Bodh Gaya Cut", fullName: "IIM Bodh Gaya JIPMAT Qualifying Cutoff", cutoff: 238, cutoffsByCat: { GEN: 238, OBC: 190, SC: 140, ST: 98 } },
+          { name: "Verbal Ability Sectional Safe", fullName: "Safe Combined Score Ensuring VA Sectional Clear", cutoff: 170, cutoffsByCat: { GEN: 170, OBC: 122, SC: 88, ST: 64 } },
+          { name: "Quant MCQ Sectional Safe", fullName: "Safe Combined Score Ensuring QA MCQ Clear", cutoff: 175, cutoffsByCat: { GEN: 175, OBC: 125, SC: 90, ST: 65 } },
+          { name: "Quant SA Sectional Safe", fullName: "Safe Combined Score Ensuring QA SA Clear", cutoff: 165, cutoffsByCat: { GEN: 165, OBC: 118, SC: 84, ST: 60 } },
+          { name: "Partner B-School Safe Cut", fullName: "Baseline Score for Partner B-School Calls", cutoff: 110, cutoffsByCat: { GEN: 110, OBC: 95, SC: 75, ST: 60 } }
+        ]
+      },
+      {
+        id: "science-advantage",
+        label: "Science Student Edge",
+        branches: [
+          { name: "IIM Indore Top 50 Merit", fullName: "Top 50 Rank in IIM Indore IPM (High Quant)", cutoff: 228, cutoffsByCat: { GEN: 228, OBC: 178, SC: 138, ST: 108 } },
+          { name: "IIM Indore General Merit", fullName: "IIM Indore Offer Zone", cutoff: 202, cutoffsByCat: { GEN: 202, OBC: 148, SC: 110, ST: 82 } },
+          { name: "IIM Ranchi Offer Zone", fullName: "IIM Ranchi Offer Zone", cutoff: 188, cutoffsByCat: { GEN: 188, OBC: 138, SC: 102, ST: 76 } },
+          { name: "SSCBS DU BMS Equivalent", fullName: "Equivalent Prep Readiness for SSCBS DU BMS", cutoff: 196, cutoffsByCat: { GEN: 196, OBC: 158, SC: 122, ST: 98 } },
+          { name: "IIM Indore PI Borderline", fullName: "IIM Indore Borderline Call (Strong PI Needed)", cutoff: 176, cutoffsByCat: { GEN: 176, OBC: 126, SC: 90, ST: 65 } },
+          { name: "IIFT Kakinada Safe Offer", fullName: "IIFT Kakinada Integrated Management Offer", cutoff: 160, cutoffsByCat: { GEN: 160, OBC: 116, SC: 80, ST: 58 } },
+          { name: "NMIMS NPAT Top 500 Eqv.", fullName: "Readiness Equivalent for NMIMS Mumbai BBA", cutoff: 150, cutoffsByCat: { GEN: 150, OBC: 150, SC: 150, ST: 150 } },
+          { name: "Symbiosis SET Pune Eqv.", fullName: "Readiness Equivalent for SCMS Pune BBA", cutoff: 140, cutoffsByCat: { GEN: 140, OBC: 140, SC: 115, ST: 100 } },
+          { name: "Christ Univ / St. Xavier's", fullName: "Top Metro BBA/BMS Honours Readiness", cutoff: 125, cutoffsByCat: { GEN: 125, OBC: 115, SC: 98, ST: 88 } },
+          { name: "Backup BBA Honours Safe", fullName: "Assured Private University BBA+MBA Seat", cutoff: 105, cutoffsByCat: { GEN: 105, OBC: 95, SC: 75, ST: 65 } }
+        ]
+      }
+    ]
+  },
+  "clat-ailet": {
+    title: "CLAT & AILET Score & NLU Cutoff Predictor",
+    subtitle: "Verified 2025 Consortium NLU cutoffs (+1 correct, -0.25 wrong, 120 max) across GEN, OBC, SC, and ST categories.",
+    hasCategoryReservation: true,
+    reservationNote: "Official NLU Reservation: GEN, OBC-NCL, SC, ST, plus State Domicile benefits at respective NLUs.",
+    maxQuestions: 120,
+    correctMarks: 1,
+    wrongMarks: 0.25,
+    maxBaseScore: 120,
+    scaleMax: 120,
+    borderlineMargin: 4,
+    unitLabel: "pts",
+    optionTypeLabel: "NLUs",
+    defaultAttempted: 106,
+    defaultAccuracy: 84,
+    bonusConfig: {
+      label: "GK & Legal Current Affairs Revision Boost (+6 pts)",
+      subtextUnlock: "Simulating +6 net marks from Legal & GK passage accuracy",
+      subtextLocked: "Toggle to simulate +6 marks from Legal & Current Affairs mastery",
+      flatBoost: 6
+    },
+    tabs: [
+      {
+        id: "tier1-nlus",
+        label: "Tier-1 NLUs",
+        branches: [
+          { name: "NLSIU Bengaluru", fullName: "National Law School of India University, Bengaluru (AIR ≤102 GEN)", cutoff: 97, cutoffsByCat: { GEN: 97, OBC: 89, SC: 79, ST: 73 } },
+          { name: "NALSAR Hyderabad", fullName: "NALSAR University of Law, Hyderabad (AIR ≤159 GEN)", cutoff: 95, cutoffsByCat: { GEN: 95, OBC: 87, SC: 76, ST: 70 } },
+          { name: "NLU Delhi (AILET Eqv.)", fullName: "National Law University Delhi (Top 80 AIR)", cutoff: 95, cutoffsByCat: { GEN: 95, OBC: 86, SC: 75, ST: 69 } },
+          { name: "WBNUJS Kolkata", fullName: "West Bengal National Univ of Juridical Sciences (AIR ≤300)", cutoff: 92, cutoffsByCat: { GEN: 92, OBC: 83, SC: 72, ST: 66 } },
+          { name: "NLU Jodhpur", fullName: "National Law University, Jodhpur", cutoff: 90, cutoffsByCat: { GEN: 90, OBC: 81, SC: 70, ST: 64 } },
+          { name: "GNLU Gandhinagar", fullName: "Gujarat National Law University, Gandhinagar", cutoff: 88, cutoffsByCat: { GEN: 88, OBC: 79, SC: 68, ST: 62 } },
+          { name: "NLIU Bhopal (B.Sc. LLB)", fullName: "NLIU Bhopal Cyber Security B.Sc. LL.B. & BA LLB", cutoff: 86, cutoffsByCat: { GEN: 86, OBC: 77, SC: 66, ST: 60 } },
+          { name: "MNLU Mumbai", fullName: "Maharashtra National Law University, Mumbai", cutoff: 85, cutoffsByCat: { GEN: 85, OBC: 76, SC: 65, ST: 59 } },
+          { name: "RMNLU Lucknow", fullName: "Dr. Ram Manohar Lohiya National Law Univ", cutoff: 83, cutoffsByCat: { GEN: 83, OBC: 74, SC: 63, ST: 57 } },
+          { name: "HNLU Raipur", fullName: "Hidayatullah National Law University, Raipur", cutoff: 81, cutoffsByCat: { GEN: 81, OBC: 72, SC: 61, ST: 55 } }
+        ]
+      },
+      {
+        id: "tier2-nlus",
+        label: "Tier-2 & Tech Law",
+        branches: [
+          { name: "NLU Odisha (Cuttack)", fullName: "National Law University Odisha (AIR ≤1013 GEN)", cutoff: 80, cutoffsByCat: { GEN: 80, OBC: 71, SC: 60, ST: 54 } },
+          { name: "RGNUL Patiala", fullName: "Rajiv Gandhi National University of Law, Punjab", cutoff: 79, cutoffsByCat: { GEN: 79, OBC: 70, SC: 59, ST: 53 } },
+          { name: "NUALS Kochi", fullName: "National Univ of Advanced Legal Studies, Kochi", cutoff: 77, cutoffsByCat: { GEN: 77, OBC: 68, SC: 57, ST: 51 } },
+          { name: "CNLU Patna", fullName: "Chanakya National Law University, Patna", cutoff: 75, cutoffsByCat: { GEN: 75, OBC: 67, SC: 55, ST: 49 } },
+          { name: "MNLU Nagpur / Aurangabad", fullName: "Maharashtra National Law Univ Nagpur", cutoff: 73, cutoffsByCat: { GEN: 73, OBC: 65, SC: 54, ST: 48 } },
+          { name: "NUSRL Ranchi", fullName: "National Univ of Study & Research in Law", cutoff: 72, cutoffsByCat: { GEN: 72, OBC: 64, SC: 53, ST: 47 } },
+          { name: "DSNLU Visakhapatnam", fullName: "Damodaram Sanjivayya National Law Univ", cutoff: 71, cutoffsByCat: { GEN: 71, OBC: 63, SC: 52, ST: 46 } },
+          { name: "TNNLU Tiruchirappalli", fullName: "Tamil Nadu National Law University", cutoff: 70, cutoffsByCat: { GEN: 70, OBC: 62, SC: 51, ST: 45 } },
+          { name: "HPNLU Shimla / DNLU", fullName: "Himachal Pradesh & Dharmashastra NLU Jabalpur", cutoff: 68, cutoffsByCat: { GEN: 68, OBC: 60, SC: 49, ST: 43 } },
+          { name: "NLU Tripura / Prayagraj", fullName: "NLU Tripura (Agartala) & RPNLU Prayagraj Closing Cut", cutoff: 65, cutoffsByCat: { GEN: 65, OBC: 57, SC: 46, ST: 40 } }
+        ]
+      },
+      {
+        id: "corporate-private",
+        label: "Symbiosis / Jindal / DU",
+        branches: [
+          { name: "Faculty of Law DU (5-Yr)", fullName: "University of Delhi 5-Year Integrated LLB via CLAT", cutoff: 86, cutoffsByCat: { GEN: 86, OBC: 78, SC: 66, ST: 60 } },
+          { name: "JGLS Sonipat Merit Schlr.", fullName: "Jindal Global Law School Scholarship Bracket", cutoff: 84, cutoffsByCat: { GEN: 84, OBC: 84, SC: 84, ST: 84 } },
+          { name: "SLS Pune (SLAT Eqv.)", fullName: "Symbiosis Law School Pune Readiness Bar", cutoff: 82, cutoffsByCat: { GEN: 82, OBC: 82, SC: 68, ST: 62 } },
+          { name: "GLC Mumbai / ILS Pune", fullName: "MHCET Law GLC Mumbai & ILS Pune Readiness", cutoff: 80, cutoffsByCat: { GEN: 80, OBC: 73, SC: 64, ST: 56 } },
+          { name: "Nirma Univ Law Ahmedabad", fullName: "Institute of Law Nirma University via CLAT", cutoff: 73, cutoffsByCat: { GEN: 73, OBC: 73, SC: 73, ST: 73 } },
+          { name: "NMIMS Kirit P. Mehta Law", fullName: "NMIMS Mumbai 5-Year BA/BBA LLB via CLAT", cutoff: 70, cutoffsByCat: { GEN: 70, OBC: 70, SC: 70, ST: 70 } },
+          { name: "SLS Noida / Hyderabad", fullName: "Symbiosis Law School Noida & Hyderabad", cutoff: 68, cutoffsByCat: { GEN: 68, OBC: 68, SC: 56, ST: 50 } },
+          { name: "Christ University Law BLR", fullName: "School of Law Christ University Bengaluru", cutoff: 65, cutoffsByCat: { GEN: 65, OBC: 65, SC: 65, ST: 65 } },
+          { name: "UPES Dehradun Patent Law", fullName: "UPES B.Tech/B.Sc. Energy & Patent Law", cutoff: 60, cutoffsByCat: { GEN: 60, OBC: 60, SC: 60, ST: 60 } },
+          { name: "Private Law College Safe", fullName: "Assured Private Integrated Law Admission", cutoff: 55, cutoffsByCat: { GEN: 55, OBC: 50, SC: 42, ST: 38 } }
+        ]
+      }
+    ]
+  }
+};
+
+const PURE_MERIT_EXAMS = new Set([
+  "bitsat",
+  "iiith-ugee",
+  "nda-navy-af-tes",
+  "upsc-nda-army",
+  "dgca-cpl-pilot",
+  "ashoka-krea-flame",
+  "sat-act-global"
+]);
+
+function buildPredictorProfileForExam(examId) {
+  if (SPECIFIC_PREDICTOR_CONFIGS[examId]) {
+    return SPECIFIC_PREDICTOR_CONFIGS[examId];
+  }
+
+  const examObj = EXAMS_DATA.find((e) => e.id === examId) || EXAMS_DATA[0];
+  const hasReservation = !PURE_MERIT_EXAMS.has(examId);
+  const topCollegesArr = examObj.campusReality.topColleges
+    .split(",")
+    .map((s) => s.trim())
+    .filter(Boolean);
+
+  const c1 = topCollegesArr[0] || "Flagship Campus 1";
+  const c2 = topCollegesArr[1] || "Premier Campus 2";
+  const c3 = topCollegesArr[2] || "Premier Campus 3";
+  const c4 = topCollegesArr[3] || "Core Institute 4";
+
+  const presets = {
+    "iiith-ugee": { q: 100, c: 2, w: 0.5, max: 200, defA: 78, defAcc: 84, unit: "pts", topRatio: 0.78 },
+    "viteee-cets": { q: 125, c: 1, w: 0, max: 125, defA: 108, defAcc: 82, unit: "pts", topRatio: 0.86 },
+    "nata-jee-arch": { q: 100, c: 2, w: 0, max: 200, defA: 82, defAcc: 84, unit: "pts", topRatio: 0.78 },
+    "isi-cmi": { q: 60, c: 4, w: 1, max: 240, defA: 45, defAcc: 84, unit: "pts", topRatio: 0.76 },
+    "imu-cet": { q: 200, c: 1, w: 0.25, max: 200, defA: 155, defAcc: 82, unit: "pts", topRatio: 0.78 },
+    "dgca-cpl-pilot": { q: 100, c: 1, w: 0, max: 100, defA: 84, defAcc: 88, unit: "pts", topRatio: 0.85 },
+    "nda-navy-af-tes": { q: 150, c: 6, w: 2, max: 900, defA: 90, defAcc: 78, unit: "pts", topRatio: 0.54 },
+    "aiims-nursing-paramedical": { q: 100, c: 1, w: 0.33, max: 100, defA: 84, defAcc: 85, unit: "pts", topRatio: 0.78 },
+    "bpharm-pharmd-bpt": { q: 150, c: 1, w: 0, max: 150, defA: 126, defAcc: 84, unit: "pts", topRatio: 0.86 },
+    "icar-aieea": { q: 150, c: 4, w: 1, max: 600, defA: 122, defAcc: 84, unit: "pts", topRatio: 0.84 },
+    "nest-niser": { q: 60, c: 3, w: 1, max: 180, defA: 44, defAcc: 84, unit: "pts", topRatio: 0.72 },
+    "iist-isro": { q: 90, c: 4, w: 1, max: 360, defA: 52, defAcc: 80, unit: "pts", topRatio: 0.58 },
+    "cuet-science-biotech": { q: 160, c: 5, w: 1, max: 800, defA: 145, defAcc: 88, unit: "pts", topRatio: 0.93 },
+    "npat-set-cuet-mgmt": { q: 130, c: 5, w: 1, max: 650, defA: 114, defAcc: 86, unit: "pts", topRatio: 0.89 },
+    "uceed-nid": { q: 75, c: 4, w: 1, max: 300, defA: 52, defAcc: 80, unit: "pts", topRatio: 0.64 },
+    "nift-bdes": { q: 100, c: 1, w: 0.25, max: 100, defA: 82, defAcc: 84, unit: "pts", topRatio: 0.80 },
+    "nchmct-jee": { q: 200, c: 4, w: 1, max: 800, defA: 150, defAcc: 82, unit: "pts", topRatio: 0.76 },
+    "upsc-nda-army": { q: 150, c: 6, w: 2, max: 900, defA: 88, defAcc: 78, unit: "pts", topRatio: 0.52 },
+    "ashoka-krea-flame": { q: 100, c: 1, w: 0, max: 100, defA: 84, defAcc: 88, unit: "pts", topRatio: 0.86 },
+    "sat-act-global": { q: 100, c: 16, w: 0, max: 1600, defA: 94, defAcc: 95, unit: "pts", topRatio: 0.96 }
+  };
+
+  const p = presets[examId] || { q: 100, c: 4, w: 1, max: 400, defA: 78, defAcc: 84, unit: "pts", topRatio: 0.82 };
+  const m = p.max;
+  const tr = p.topRatio || 0.82;
+
+  const withCats = (genScore) => {
+    if (!hasReservation) {
+      return { GEN: genScore, OBC: genScore, SC: genScore, ST: genScore };
+    }
+    return {
+      GEN: genScore,
+      OBC: Math.max(Math.round(m * 0.2), Math.round(genScore * 0.90)),
+      SC: Math.max(Math.round(m * 0.15), Math.round(genScore * 0.74)),
+      ST: Math.max(Math.round(m * 0.12), Math.round(genScore * 0.65))
+    };
+  };
+
+  const makeBranches = (multiplier) => {
+    const steps = [1.0, 0.95, 0.91, 0.86, 0.82, 0.78, 0.74, 0.69, 0.64, 0.58];
+    const labels = [
+      { name: c1.slice(0, 22), fullName: c1 + " — Flagship Program" },
+      { name: c2.slice(0, 22), fullName: c2 + " — Top Honours Track" },
+      { name: c3.slice(0, 22), fullName: c3 + " — Core Specialization" },
+      { name: c4.slice(0, 22), fullName: c4 + " — Primary Intake" },
+      { name: "Tier-1 Spec. Track A", fullName: examObj.degree + " — Specialization Track A" },
+      { name: "Tier-1 Spec. Track B", fullName: examObj.degree + " — Specialization Track B" },
+      { name: "Premier Campus Round 2", fullName: c1 + " / " + c2 + " — Round 2 Closing" },
+      { name: "Regional / State Flagship", fullName: "Top Regional Govt / Autonomous Partner Seat" },
+      { name: "Interdisciplinary Dual", fullName: examObj.domain + " Interdisciplinary Program" },
+      { name: "Safe Qualifying Cutoff", fullName: examObj.name + " Official Qualifying / Call Cutoff" }
+    ];
+
+    return labels.map((item, idx) => {
+      let baseCut = Math.round(m * tr * steps[idx] * multiplier);
+      if ((examId === "nda-navy-af-tes" || examId === "upsc-nda-army") && idx === 9) {
+        baseCut = Math.round(375 * multiplier); // Official UPSC NDA written cutoff ~365-385 / 900
+      }
+      if (examId === "uceed-nid" && idx === 9) {
+        baseCut = Math.round(70 * multiplier); // UCEED Part A Qualifying ~70 GEN, ~63 OBC, ~35 SC/ST
+      }
+      return {
+        name: item.name,
+        fullName: item.fullName,
+        cutoff: baseCut,
+        cutoffsByCat: withCats(baseCut)
+      };
+    });
+  };
+
+  return {
+    title: examObj.name + " Score & Cutoff Predictor",
+    subtitle:
+      "Verified 2025/2026 pattern (+" +
+      p.c +
+      " correct" +
+      (p.w > 0 ? ", -" + p.w + " wrong" : ", no negative marking") +
+      ", " +
+      p.max +
+      " max) against safe target cutoffs across campuses and categories.",
+    hasCategoryReservation: hasReservation,
+    reservationNote: hasReservation
+      ? "Constitutional reservation merit active: switch between GEN, OBC-NCL/EWS, SC, and ST to view category-adjusted cutoffs."
+      : "Pure Open Merit Exam — identical merit cutoffs apply across all categories.",
+    maxQuestions: p.q,
+    correctMarks: p.c,
+    wrongMarks: p.w,
+    maxBaseScore: p.max,
+    scaleMax: p.max,
+    borderlineMargin: Math.max(3, Math.round(p.max * 0.03)),
+    unitLabel: p.unit,
+    optionTypeLabel: "Options",
+    defaultAttempted: p.defA,
+    defaultAccuracy: p.defAcc,
+    bonusConfig: {
+      label: "Include Stage-2 Interview / Studio / Revision Boost (+" + Math.round(p.max * 0.05) + " pts)",
+      subtextUnlock: "Simulating strong Stage-2 / revision bonus advantage",
+      subtextLocked: "Toggle to simulate +" + Math.round(p.max * 0.05) + " bonus points",
+      flatBoost: Math.round(p.max * 0.05)
+    },
+    tabs: [
+      { id: "round-1", label: "Flagship / Round 1", branches: makeBranches(1.0) },
+      { id: "round-3", label: "Round 3 Cutoffs", branches: makeBranches(0.93) },
+      { id: "spot-round", label: "Spot / Extended", branches: makeBranches(0.87) }
+    ]
+  };
+}
+
+function InteractiveScorePredictor({
+  examId,
+  onSelectExamId,
+  studentStream,
+  showExamSelector = true,
+  onAskAi
+}) {
+  const isBoards = examId === "boards-12";
+  const profile = useMemo(() => {
+    if (isBoards) return null;
+    return buildPredictorProfileForExam(examId);
+  }, [examId, isBoards]);
+
+  const [activeTabId, setActiveTabId] = useState("pilani");
+  const [selectedCategory, setSelectedCategory] = useState("GEN");
+  const [attempted, setAttempted] = useState(115);
+  const [accuracy, setAccuracy] = useState(85);
+  const [bonusEnabled, setBonusEnabled] = useState(false);
+  const [hoveredBranchIdx, setHoveredBranchIdx] = useState(null);
+
+  // Class 12 Boards 5-Subject State
+  const [boardScores, setBoardScores] = useState({
+    physics: 88,
+    chemistry: 90,
+    mathOrBio: 92,
+    english: 91,
+    fifthSubject: 94
+  });
+  const [boardPracticalBoost, setBoardPracticalBoost] = useState(false);
+
+  useEffect(() => {
+    if (isBoards) {
+      setActiveTabId(BOARDS_CUTOFF_TABS[0].id);
+      setHoveredBranchIdx(null);
+    } else if (profile) {
+      setActiveTabId(profile.tabs[0].id);
+      setAttempted(profile.defaultAttempted);
+      setAccuracy(profile.defaultAccuracy);
+      setBonusEnabled(false);
+      setHoveredBranchIdx(null);
+    }
+  }, [examId, isBoards, profile]);
+
+  const boardsCalc = useMemo(() => {
+    const boost = boardPracticalBoost ? 2 : 0;
+    const p = Math.min(100, boardScores.physics + boost);
+    const c = Math.min(100, boardScores.chemistry + boost);
+    const mb = Math.min(100, boardScores.mathOrBio + boost);
+    const e = Math.min(100, boardScores.english + boost);
+    const f = Math.min(100, boardScores.fifthSubject + boost);
+
+    const overallPct = Number(((p + c + mb + e + f) / 5).toFixed(1));
+    const corePct = Number(((p + c + mb) / 3).toFixed(1));
+    const minCoreSub = Math.min(p, c, mb);
+    return { p, c, mb, e, f, overallPct, corePct, minCoreSub };
+  }, [boardScores, boardPracticalBoost]);
+
+  const examCalc = useMemo(() => {
+    if (isBoards || !profile) return null;
+    const correctCount = Math.round((attempted * accuracy) / 100);
+    const wrongCount = Math.max(0, attempted - correctCount);
+    const positivePts = Number((correctCount * profile.correctMarks).toFixed(1));
+    const negativePts = Number((wrongCount * profile.wrongMarks).toFixed(1));
+
+    let bonusPts = 0;
+    let bonusCorrect = 0;
+    let bonusWrong = 0;
+    if (bonusEnabled && profile.bonusConfig) {
+      if (profile.bonusConfig.bonusQuestions) {
+        const bQ = profile.bonusConfig.bonusQuestions;
+        bonusCorrect = Math.round((bQ * accuracy) / 100);
+        bonusWrong = Math.max(0, bQ - bonusCorrect);
+        bonusPts = Math.max(
+          0,
+          Number((bonusCorrect * profile.correctMarks - bonusWrong * profile.wrongMarks).toFixed(1))
+        );
+      } else if (profile.bonusConfig.flatBoost) {
+        bonusPts = profile.bonusConfig.flatBoost;
+      }
+    }
+
+    const totalCorrect = correctCount + bonusCorrect;
+    const totalWrong = wrongCount + bonusWrong;
+    const totalPosPts = Number((positivePts + (bonusCorrect * profile.correctMarks || bonusPts)).toFixed(1));
+    const totalNegPts = Number((negativePts + bonusWrong * profile.wrongMarks).toFixed(1));
+    const rawNet = positivePts - negativePts + bonusPts;
+    const maxCap =
+      profile.bonusConfig && profile.bonusConfig.bonusQuestions && bonusEnabled
+        ? profile.maxBaseScore + profile.bonusConfig.bonusQuestions * profile.correctMarks
+        : profile.maxBaseScore;
+    const netScore = Math.max(0, Math.min(maxCap, Math.round(rawNet)));
+
+    return {
+      correctCount: totalCorrect,
+      wrongCount: totalWrong,
+      positivePts: Math.round(totalPosPts),
+      negativePts: Math.round(totalNegPts),
+      netScore,
+      maxCap
+    };
+  }, [isBoards, profile, attempted, accuracy, bonusEnabled]);
+
+  const currentTabObj = useMemo(() => {
+    if (isBoards) {
+      return BOARDS_CUTOFF_TABS.find((t) => t.id === activeTabId) || BOARDS_CUTOFF_TABS[0];
+    }
+    if (!profile) return null;
+    return profile.tabs.find((t) => t.id === activeTabId) || profile.tabs[0];
+  }, [isBoards, profile, activeTabId]);
+
+  const activeScore = isBoards ? boardsCalc.overallPct : examCalc ? examCalc.netScore : 0;
+  const activeScaleMax = isBoards ? 100 : profile ? profile.scaleMax : 430;
+  const activeBorderline = isBoards ? 3 : profile ? profile.borderlineMargin : 10;
+  const hasReservationSupport = isBoards || (profile && profile.hasCategoryReservation);
+
+  const evaluatedBranches = useMemo(() => {
+    if (!currentTabObj) return [];
+    return currentTabObj.branches.map((b) => {
+      const compareScore =
+        isBoards && b.basis === "PCM" ? boardsCalc.corePct : activeScore;
+      const effectiveCutoff =
+        b.cutoffsByCat && b.cutoffsByCat[selectedCategory] !== undefined
+          ? b.cutoffsByCat[selectedCategory]
+          : b.cutoff;
+      const margin = Number((compareScore - effectiveCutoff).toFixed(1));
+      let status = "out";
+      if (margin >= 0) {
+        status = "eligible";
+      } else if (Math.abs(margin) <= activeBorderline) {
+        status = "borderline";
+      }
+      return {
+        ...b,
+        effectiveCutoff,
+        compareScore,
+        margin,
+        status
+      };
+    });
+  }, [currentTabObj, isBoards, boardsCalc, activeScore, activeBorderline, selectedCategory]);
+
+  const eligibleBranches = useMemo(
+    () => evaluatedBranches.filter((b) => b.status === "eligible"),
+    [evaluatedBranches]
+  );
+
+  const topEligibleBranch =
+    eligibleBranches.length > 0
+      ? eligibleBranches.reduce(
+          (best, cur) => (cur.effectiveCutoff > best.effectiveCutoff ? cur : best),
+          eligibleBranches[0]
+        )
+      : null;
+
+  const scoreLinePct = Math.min(98, Math.max(2, (activeScore / activeScaleMax) * 100));
+  const josaaBarTarget = selectedCategory === "SC" || selectedCategory === "ST" ? 65 : 75;
+
+  return (
+    <div className="rounded-3xl bg-[#F3EFE6] p-5 sm:p-8 text-[#16382E] shadow-md border border-[#D8D0C0]">
+      {/* Optional Exam & Boards Switcher Strip */}
+      {showExamSelector && (
+        <div className="mb-6 pb-5 border-b border-[#DED7C8]">
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div>
+              <span className="text-[11px] font-bold uppercase tracking-[0.16em] text-[#A67C46]">
+                INTERACTIVE SCORE & CUTOFF SIMULATOR (26 EXAMS + CLASS 12 BOARDS)
+              </span>
+              <p className="mt-0.5 text-xs text-[#4A5550]">
+                Select Class 12 Boards or any of the 26 Entrance Exams to simulate live 2025/2026 cutoffs:
+              </p>
+            </div>
+
+            <select
+              value={examId}
+              onChange={(e) => onSelectExamId && onSelectExamId(e.target.value)}
+              className="rounded-xl border border-[#D5CFC0] bg-white px-3.5 py-2 text-xs sm:text-sm font-semibold text-[#16382E] shadow-2xs focus:border-[#16382E] focus:outline-none cursor-pointer"
+            >
+              <option value="boards-12">🎓 Class 12 Boards (75% / 65% SC-ST & Merit Gatekeeper)</option>
+              {EXAMS_DATA.map((ex) => (
+                <option key={ex.id} value={ex.id}>
+                  {ex.name} ({ex.streamCategory})
+                </option>
+              ))}
+            </select>
+          </div>
+
+          {/* Quick Popular Exam Pills */}
+          <div className="mt-3 flex flex-wrap items-center gap-1.5">
+            {[
+              { id: "bitsat", label: "BITSAT" },
+              { id: "boards-12", label: "Class 12 Boards %" },
+              { id: "jee-main-adv", label: "JEE Main & Adv" },
+              { id: "neet-ug", label: "NEET-UG" },
+              { id: "iiser-iat", label: "IISER IAT" },
+              { id: "ipmat-jipmat", label: "IPMAT (IIM)" },
+              { id: "clat-ailet", label: "CLAT / AILET" },
+              { id: "cuet-science-biotech", label: "CUET-UG" },
+              { id: "uceed-nid", label: "UCEED / NID" },
+              { id: "nda-navy-af-tes", label: "UPSC NDA" }
+            ].map((pill) => {
+              const active = examId === pill.id;
+              return (
+                <button
+                  key={pill.id}
+                  type="button"
+                  onClick={() => onSelectExamId && onSelectExamId(pill.id)}
+                  className={
+                    "rounded-full px-3.5 py-1 text-[11px] font-semibold transition-all cursor-pointer " +
+                    (active
+                      ? "bg-[#194236] text-white font-bold shadow-xs"
+                      : "bg-white text-[#4A5550] border border-[#E2DDD0] hover:border-[#A67C46] hover:text-[#16382E]")
+                  }
+                >
+                  {pill.label}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      {/* Predictor Title, Subtitle & Category Merit Selector */}
+      <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
+        <div>
+          <h3 className="font-serif-editorial text-2xl sm:text-3xl font-medium tracking-tight text-[#16382E]">
+            {isBoards
+              ? "Class 12 Boards Score & Eligibility Gatekeeper Predictor"
+              : profile.title}
+          </h3>
+          <p className="mt-1 text-xs sm:text-sm text-[#4A5550]">
+            {isBoards
+              ? "Simulate subject-wise Class 12 Board marks against 75% (65% SC/ST) IIT/NIT gates, TNEA/DU merit cutoffs, and global universities."
+              : profile.subtitle}
+          </p>
+        </div>
+
+        {/* Category Merit Selector (GEN / OBC-EWS / SC / ST) */}
+        <div className="shrink-0 rounded-2xl border border-[#E2DDD0] bg-white p-2.5 shadow-2xs">
+          <div className="flex items-center justify-between gap-2 mb-1.5 px-1">
+            <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-[#A67C46]">
+              Merit Category:
+            </span>
+            <span className="text-[10px] font-semibold text-[#4A5550]">
+              {hasReservationSupport ? "SC / ST / OBC Active" : "Pure Open Merit"}
+            </span>
+          </div>
+          <div className="inline-flex flex-wrap items-center gap-1 rounded-xl bg-[#F9F7F1] p-1 border border-[#E2DDD0]">
+            {CATEGORY_OPTIONS.map((cat) => {
+              const isSelectedCat = selectedCategory === cat.id;
+              return (
+                <button
+                  key={cat.id}
+                  type="button"
+                  onClick={() => setSelectedCategory(cat.id)}
+                  className={
+                    "rounded-lg px-2.5 py-1 text-xs font-bold transition-all cursor-pointer " +
+                    (isSelectedCat
+                      ? "bg-[#194236] text-white shadow-2xs"
+                      : "text-[#4A5550] hover:text-[#16382E]")
+                  }
+                >
+                  {cat.shortLabel}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+
+      {/* Category Reservation Info Banner */}
+      <div className="mt-3 flex flex-wrap items-center justify-between gap-2 rounded-xl border border-[#E2DDD0] bg-white/80 px-3.5 py-2 text-xs text-[#4A5550]">
+        <span>
+          <strong className="text-[#16382E]">
+            {hasReservationSupport
+              ? "Category Cutoff Mode (" + selectedCategory + "): "
+              : "Merit Policy Notice: "}
+          </strong>
+          {isBoards
+            ? "JoSAA IIT/NIT/IIIT & IIST board requirement is 75% for GEN/OBC and 65% for SC/ST; NEET PCB gate is 50% GEN and 40% OBC/SC/ST."
+            : profile.reservationNote}
+        </span>
+      </div>
+
+      {/* 3-Column Top Summary Strip (Editorial Ivory & Botanical Styling) */}
+      <div className="mt-4 grid grid-cols-1 gap-3.5 sm:grid-cols-3 rounded-2xl bg-white p-4 sm:p-5 border border-[#E2DDD0] shadow-2xs">
+        {/* Col 1: Predicted Net Score */}
+        <div>
+          <p className="text-xs font-semibold uppercase tracking-wider text-[#A67C46]">
+            {isBoards ? "Predicted Overall Board %" : "Predicted Net Score"}
+          </p>
+          <div className="mt-1 flex items-baseline gap-1.5">
+            <span className="font-serif-editorial text-3xl sm:text-4xl font-semibold tracking-tight text-[#16382E]">
+              {isBoards ? boardsCalc.overallPct + "%" : examCalc.netScore}
+            </span>
+            <span className="text-sm font-medium text-[#6C7A74]">
+              / {isBoards ? "100%" : examCalc.maxCap}
+            </span>
+          </div>
+        </div>
+
+        {/* Col 2: Answer Breakdown */}
+        <div>
+          <p className="text-xs font-semibold uppercase tracking-wider text-[#A67C46]">
+            {isBoards ? "Core Science (PCM/PCB) Aggregate" : "Answer Breakdown"}
+          </p>
+          {isBoards ? (
+            <>
+              <p className="mt-1 text-lg sm:text-xl font-bold text-[#16382E]">
+                {boardsCalc.corePct}% Core · Min Sub: {boardsCalc.minCoreSub}
+              </p>
+              <p className="mt-0.5 text-xs text-[#4A5550]">
+                {boardsCalc.overallPct >= josaaBarTarget
+                  ? "✓ Clears JoSAA " + josaaBarTarget + "% (" + selectedCategory + ") Gate"
+                  : "⚠️ Below JoSAA " + josaaBarTarget + "% (" + selectedCategory + ") Gate"}
+              </p>
+            </>
+          ) : (
+            <>
+              <p className="mt-1 text-lg sm:text-xl font-bold text-[#16382E]">
+                {examCalc.correctCount} Correct · {examCalc.wrongCount} Wrong
+              </p>
+              <p className="mt-0.5 text-xs text-[#4A5550]">
+                +{examCalc.positivePts} pts · -{examCalc.negativePts} pts
+              </p>
+            </>
+          )}
+        </div>
+
+        {/* Col 3: Eligible Branches / Gates */}
+        <div>
+          <p className="text-xs font-semibold uppercase tracking-wider text-[#A67C46]">
+            Eligible {isBoards ? "Gates" : profile.optionTypeLabel} ({currentTabObj.label} ·{" "}
+            {hasReservationSupport ? selectedCategory : "Merit"})
+          </p>
+          <p className="mt-1 text-lg sm:text-xl font-bold text-[#194236]">
+            {eligibleBranches.length} of {evaluatedBranches.length}{" "}
+            {isBoards ? "Gates" : profile.optionTypeLabel}
+          </p>
+          <p className="mt-0.5 text-xs text-[#4A5550] truncate">
+            Top: {topEligibleBranch ? topEligibleBranch.fullName : "None in this tab yet"}
+          </p>
+        </div>
+      </div>
+
+      {/* Horizontal Cutoff Comparison Card */}
+      <div className="mt-4 rounded-2xl bg-white p-4 sm:p-6 border border-[#E2DDD0] shadow-2xs">
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <h4 className="font-serif-editorial text-lg sm:text-xl font-medium text-[#16382E]">
+              {isBoards
+                ? "Board Cutoff & Gatekeeper Comparison (" + selectedCategory + ")"
+                : "Branch & Campus Cutoff Comparison (" +
+                  (hasReservationSupport ? selectedCategory + " Merit" : "Open Merit") +
+                  ")"}
+            </h4>
+            <p className="text-xs text-[#4A5550]">
+              Vertical dashed line marks your calculated score ({activeScore}{" "}
+              {isBoards ? "%" : profile.unitLabel})
+            </p>
+          </div>
+
+          {/* Campus / Tier Pill Switcher */}
+          <div className="inline-flex flex-wrap items-center rounded-full bg-[#F9F7F1] p-1 border border-[#E2DDD0]">
+            {(isBoards ? BOARDS_CUTOFF_TABS : profile.tabs).map((tab) => {
+              const isTabActive = currentTabObj.id === tab.id;
+              return (
+                <button
+                  key={tab.id}
+                  type="button"
+                  onClick={() => setActiveTabId(tab.id)}
+                  className={
+                    "rounded-full px-3.5 py-1 text-xs font-semibold transition-all cursor-pointer " +
+                    (isTabActive
+                      ? "bg-[#194236] text-white shadow-2xs"
+                      : "text-[#4A5550] hover:text-[#16382E]")
+                  }
+                >
+                  {tab.label}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Chart Area with Moving Vertical Dashed Line */}
+        <div className="mt-7 relative">
+          <div className="space-y-2.5">
+            {evaluatedBranches.map((branch, idx) => {
+              const widthPct = Math.min(
+                96,
+                Math.max(8, (branch.effectiveCutoff / activeScaleMax) * 100)
+              );
+              let barColorClass = "bg-[#C4BEB0]"; // Out of reach warm stone
+              if (branch.status === "eligible") {
+                barColorClass = "bg-[#1E6B4E]"; // Eligible botanical emerald
+              } else if (branch.status === "borderline") {
+                barColorClass = "bg-[#C88A32]"; // Borderline brushed ochre
+              }
+
+              const isHovered = hoveredBranchIdx === idx;
+              const marginSign = branch.margin >= 0 ? "+" : "";
+              const statusText =
+                branch.status === "eligible"
+                  ? "above cutoff (Eligible)"
+                  : branch.status === "borderline"
+                  ? "(Borderline)"
+                  : "(Out of reach)";
+
+              return (
+                <div
+                  key={branch.name + "-" + idx}
+                  onMouseEnter={() => setHoveredBranchIdx(idx)}
+                  onMouseLeave={() => setHoveredBranchIdx(null)}
+                  className="group relative flex items-center gap-3 py-0.5"
+                >
+                  {/* Left Branch Label */}
+                  <div className="w-32 sm:w-44 shrink-0 text-right pr-2">
+                    <span className="text-xs sm:text-[13px] font-medium text-[#2C3632] group-hover:text-[#16382E] group-hover:font-semibold transition-all truncate block">
+                      {branch.name}
+                    </span>
+                  </div>
+
+                  {/* Bar Track */}
+                  <div className="relative flex-1 h-6 flex items-center rounded-r-full bg-[#F9F7F1]/70">
+                    <div
+                      className={
+                        "h-5 rounded-r-full transition-all duration-300 " +
+                        barColorClass +
+                        (isHovered ? " brightness-105 ring-2 ring-[#16382E]/30" : "")
+                      }
+                      style={{ width: widthPct + "%" }}
+                    />
+                    <span className="ml-2 text-xs font-bold text-[#16382E] shrink-0">
+                      {branch.effectiveCutoff}
+                      {isBoards ? "%" : ""}
+                    </span>
+
+                    {/* Hover Tooltip */}
+                    {isHovered && (
+                      <div className="absolute left-6 -top-12 z-30 pointer-events-none rounded-xl border border-[#A67C46]/50 bg-[#16382E] px-3.5 py-2 text-xs text-white shadow-xl whitespace-nowrap">
+                        <p className="font-bold text-white">
+                          {branch.fullName}{" "}
+                          {hasReservationSupport ? "(" + selectedCategory + ")" : ""}
+                        </p>
+                        <div className="mt-0.5 flex items-center gap-1.5 text-[11px] text-[#E2E8E4]">
+                          <span
+                            className={
+                              "inline-block h-2.5 w-2.5 rounded-xs " +
+                              (branch.status === "eligible"
+                                ? "bg-[#34D399]"
+                                : branch.status === "borderline"
+                                ? "bg-[#FBBF24]"
+                                : "bg-[#9CA3AF]")
+                            }
+                          />
+                          <span>
+                            Safe Cutoff: {branch.effectiveCutoff}
+                            {isBoards ? "%" : " pts"} | Your Margin: {marginSign}
+                            {branch.margin}
+                            {isBoards ? "%" : " pts"} {statusText}
+                          </span>
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+
+          {/* Vertical Dashed Score Line Overlay */}
+          <div className="pointer-events-none absolute inset-y-0 left-32 sm:left-44 right-0">
+            <div
+              className="absolute top-0 bottom-0 border-l-2 border-dashed border-[#16382E] transition-all duration-300"
+              style={{ left: scoreLinePct + "%" }}
+            >
+              <div className="absolute -top-6 -translate-x-1/2 rounded-full bg-[#16382E] px-3 py-0.5 text-[11px] font-bold text-white shadow-md whitespace-nowrap">
+                Your Score: {activeScore}
+                {isBoards ? "%" : ""}
+              </div>
+            </div>
+          </div>
+
+          {/* X-Axis Scale Row */}
+          <div className="mt-4 flex items-center justify-between pl-32 sm:pl-44 text-[11px] font-semibold text-[#6C7A74]">
+            <span>0</span>
+            <span>{Math.round(activeScaleMax / 2)}</span>
+            <span>{activeScaleMax}</span>
+          </div>
+        </div>
+
+        {/* Status Legend */}
+        <div className="mt-5 flex flex-wrap items-center gap-5 border-t border-[#E2DDD0] pt-4 text-xs font-medium text-[#4A5550]">
+          <div className="flex items-center gap-2">
+            <span className="h-3 w-3 rounded-full bg-[#1E6B4E]" />
+            <span>Eligible (Score ≥ {selectedCategory} Cutoff)</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="h-3 w-3 rounded-full bg-[#C88A32]" />
+            <span>
+              Borderline (Within {activeBorderline} {isBoards ? "%" : "pts"})
+            </span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="h-3 w-3 rounded-full bg-[#C4BEB0]" />
+            <span>
+              Out of Reach (&gt;{activeBorderline} {isBoards ? "%" : "pts"} gap)
+            </span>
+          </div>
+        </div>
+      </div>
+
+      {/* Bottom Interactive Sliders & Bonus Toggle Card */}
+      <div className="mt-4 rounded-2xl bg-white p-4 sm:p-6 border border-[#E2DDD0] shadow-2xs">
+        {isBoards ? (
+          <div className="space-y-4">
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+              <div>
+                <div className="flex justify-between text-xs font-semibold text-[#16382E] mb-1.5">
+                  <span>Physics (out of 100)</span>
+                  <span className="rounded-md bg-[#F9F7F1] px-2 py-0.5 text-[#16382E] font-bold border border-[#E2DDD0]">
+                    {boardScores.physics}
+                  </span>
+                </div>
+                <input
+                  type="range"
+                  min="40"
+                  max="100"
+                  value={boardScores.physics}
+                  onChange={(e) =>
+                    setBoardScores((s) => ({ ...s, physics: Number(e.target.value) }))
+                  }
+                  className="w-full accent-[#194236] cursor-pointer"
+                />
+              </div>
+
+              <div>
+                <div className="flex justify-between text-xs font-semibold text-[#16382E] mb-1.5">
+                  <span>Chemistry (out of 100)</span>
+                  <span className="rounded-md bg-[#F9F7F1] px-2 py-0.5 text-[#16382E] font-bold border border-[#E2DDD0]">
+                    {boardScores.chemistry}
+                  </span>
+                </div>
+                <input
+                  type="range"
+                  min="40"
+                  max="100"
+                  value={boardScores.chemistry}
+                  onChange={(e) =>
+                    setBoardScores((s) => ({ ...s, chemistry: Number(e.target.value) }))
+                  }
+                  className="w-full accent-[#194236] cursor-pointer"
+                />
+              </div>
+
+              <div>
+                <div className="flex justify-between text-xs font-semibold text-[#16382E] mb-1.5">
+                  <span>{studentStream === "PCB" ? "Biology" : "Mathematics"} (out of 100)</span>
+                  <span className="rounded-md bg-[#F9F7F1] px-2 py-0.5 text-[#16382E] font-bold border border-[#E2DDD0]">
+                    {boardScores.mathOrBio}
+                  </span>
+                </div>
+                <input
+                  type="range"
+                  min="40"
+                  max="100"
+                  value={boardScores.mathOrBio}
+                  onChange={(e) =>
+                    setBoardScores((s) => ({ ...s, mathOrBio: Number(e.target.value) }))
+                  }
+                  className="w-full accent-[#194236] cursor-pointer"
+                />
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 pt-2 border-t border-[#E2DDD0]">
+              <div>
+                <div className="flex justify-between text-xs font-semibold text-[#16382E] mb-1.5">
+                  <span>English Core (out of 100)</span>
+                  <span className="rounded-md bg-[#F9F7F1] px-2 py-0.5 text-[#16382E] font-bold border border-[#E2DDD0]">
+                    {boardScores.english}
+                  </span>
+                </div>
+                <input
+                  type="range"
+                  min="40"
+                  max="100"
+                  value={boardScores.english}
+                  onChange={(e) =>
+                    setBoardScores((s) => ({ ...s, english: Number(e.target.value) }))
+                  }
+                  className="w-full accent-[#194236] cursor-pointer"
+                />
+              </div>
+
+              <div>
+                <div className="flex justify-between text-xs font-semibold text-[#16382E] mb-1.5">
+                  <span>5th Elective / CS / PE / Bio (out of 100)</span>
+                  <span className="rounded-md bg-[#F9F7F1] px-2 py-0.5 text-[#16382E] font-bold border border-[#E2DDD0]">
+                    {boardScores.fifthSubject}
+                  </span>
+                </div>
+                <input
+                  type="range"
+                  min="40"
+                  max="100"
+                  value={boardScores.fifthSubject}
+                  onChange={(e) =>
+                    setBoardScores((s) => ({ ...s, fifthSubject: Number(e.target.value) }))
+                  }
+                  className="w-full accent-[#194236] cursor-pointer"
+                />
+              </div>
+            </div>
+
+            {/* Practical Full Marks Toggle */}
+            <div className="flex items-center justify-between pt-3 border-t border-[#E2DDD0]">
+              <button
+                type="button"
+                onClick={() => setBoardPracticalBoost((b) => !b)}
+                className="flex items-center gap-3 cursor-pointer"
+              >
+                <div
+                  className={
+                    "relative h-6 w-11 rounded-full transition-colors " +
+                    (boardPracticalBoost ? "bg-[#1E6B4E]" : "bg-[#C4BEB0]")
+                  }
+                >
+                  <span
+                    className={
+                      "absolute top-0.5 left-0.5 h-5 w-5 rounded-full bg-white shadow-xs transition-transform " +
+                      (boardPracticalBoost ? "translate-x-5" : "translate-x-0")
+                    }
+                  />
+                </div>
+                <div className="text-left">
+                  <p className="text-xs sm:text-sm font-semibold text-[#16382E]">
+                    Simulate 30/30 Lab Practical & Internal Assessment Boost (+2% aggregate)
+                  </p>
+                  <p className="text-[11px] text-[#4A5550]">
+                    Full practical marks often push borderline students past the 75% (GEN/OBC) or 65% (SC/ST) JoSAA bar
+                  </p>
+                </div>
+              </button>
+            </div>
+          </div>
+        ) : (
+          <div>
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
+              {/* Slider 1: Main Questions Attempted */}
+              <div>
+                <div className="flex items-center justify-between mb-2">
+                  <span className="text-xs sm:text-sm font-semibold text-[#16382E]">
+                    Main Questions Attempted (max {profile.maxQuestions})
+                  </span>
+                  <span className="rounded-lg border border-[#E2DDD0] bg-[#F9F7F1] px-3 py-1 text-sm font-bold text-[#16382E]">
+                    {attempted}
+                  </span>
+                </div>
+                <div className="flex items-center gap-2.5">
+                  <button
+                    type="button"
+                    onClick={() => setAttempted((a) => Math.max(10, a - 1))}
+                    className="text-sm font-bold text-[#4A5550] hover:text-[#16382E] px-1.5 cursor-pointer"
+                  >
+                    −
+                  </button>
+                  <input
+                    type="range"
+                    min="10"
+                    max={profile.maxQuestions}
+                    value={attempted}
+                    onChange={(e) => setAttempted(Number(e.target.value))}
+                    className="w-full accent-[#194236] cursor-pointer"
+                  />
+                  <button
+                    type="button"
+                    onClick={() => setAttempted((a) => Math.min(profile.maxQuestions, a + 1))}
+                    className="text-sm font-bold text-[#4A5550] hover:text-[#16382E] px-1.5 cursor-pointer"
+                  >
+                    +
+                  </button>
+                </div>
+              </div>
+
+              {/* Slider 2: Overall Accuracy (%) */}
+              <div>
+                <div className="flex items-center justify-between mb-2">
+                  <span className="text-xs sm:text-sm font-semibold text-[#16382E]">
+                    Overall Accuracy (%)
+                  </span>
+                  <span className="rounded-lg border border-[#E2DDD0] bg-[#F9F7F1] px-3 py-1 text-sm font-bold text-[#16382E]">
+                    {accuracy}%
+                  </span>
+                </div>
+                <div className="flex items-center gap-2.5">
+                  <button
+                    type="button"
+                    onClick={() => setAccuracy((acc) => Math.max(30, acc - 1))}
+                    className="text-sm font-bold text-[#4A5550] hover:text-[#16382E] px-1.5 cursor-pointer"
+                  >
+                    −
+                  </button>
+                  <input
+                    type="range"
+                    min="30"
+                    max="100"
+                    value={accuracy}
+                    onChange={(e) => setAccuracy(Number(e.target.value))}
+                    className="w-full accent-[#194236] cursor-pointer"
+                  />
+                  <button
+                    type="button"
+                    onClick={() => setAccuracy((acc) => Math.min(100, acc + 1))}
+                    className="text-sm font-bold text-[#4A5550] hover:text-[#16382E] px-1.5 cursor-pointer"
+                  >
+                    +
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            {/* Bonus Section Toggle Switch */}
+            {profile.bonusConfig && (
+              <div className="mt-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 border-t border-[#E2DDD0] pt-4">
+                <button
+                  type="button"
+                  onClick={() => {
+                    if (
+                      examId === "bitsat" &&
+                      !bonusEnabled &&
+                      attempted < profile.maxQuestions
+                    ) {
+                      setAttempted(profile.maxQuestions);
+                    }
+                    setBonusEnabled((b) => !b);
+                  }}
+                  className="flex items-center gap-3 text-left cursor-pointer"
+                >
+                  <div
+                    className={
+                      "relative h-6 w-11 shrink-0 rounded-full transition-colors " +
+                      (bonusEnabled ? "bg-[#1E6B4E]" : "bg-[#C4BEB0]")
+                    }
+                  >
+                    <span
+                      className={
+                        "absolute top-0.5 left-0.5 h-5 w-5 rounded-full bg-white shadow-xs transition-transform " +
+                        (bonusEnabled ? "translate-x-5" : "translate-x-0")
+                      }
+                    />
+                  </div>
+                  <div>
+                    <p className="text-xs sm:text-sm font-semibold text-[#16382E]">
+                      {profile.bonusConfig.label}
+                    </p>
+                    <p className="text-[11px] text-[#4A5550]">
+                      {attempted >= profile.maxQuestions || bonusEnabled
+                        ? profile.bonusConfig.subtextUnlock
+                        : profile.bonusConfig.subtextLocked}
+                    </p>
+                  </div>
+                </button>
+
+                {onAskAi && (
+                  <button
+                    type="button"
+                    onClick={() =>
+                      onAskAi(
+                        "In the Disha Score Predictor for " +
+                          profile.title +
+                          " (" +
+                          selectedCategory +
+                          " category), my simulated score is " +
+                          activeScore +
+                          " (" +
+                          attempted +
+                          " questions attempted at " +
+                          accuracy +
+                          "% accuracy), making me eligible for " +
+                          eligibleBranches.length +
+                          " of " +
+                          evaluatedBranches.length +
+                          " options in " +
+                          currentTabObj.label +
+                          ". How can I improve my accuracy and question selection to jump to the next cutoff tier?"
+                      )
+                    }
+                    className="shrink-0 rounded-full bg-[#194236] px-4 py-2 text-xs font-bold text-white hover:bg-[#123027] transition-colors cursor-pointer"
+                  >
+                    Analyze Score with Gemini 2.5 →
+                  </button>
+                )}
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+function DropYearSimulator({ defaultTier1Pay = 22, examName = "JEE / NEET / Target", onAskAi }) {
+  const [tier2StartCtc, setTier2StartCtc] = useState(9);
+  const [tier1TargetCtc, setTier1TargetCtc] = useState(defaultTier1Pay);
+  const [dropCrackProb, setDropCrackProb] = useState(35);
+  const [upskillStrategy, setUpskillStrategy] = useState("switch-yr3");
+  const [dropCoachingCostLakhs, setDropCoachingCostLakhs] = useState(2.5);
+
+  useEffect(() => {
+    if (defaultTier1Pay) {
+      setTier1TargetCtc(Math.min(45, Math.max(12, defaultTier1Pay)));
+    }
+  }, [defaultTier1Pay]);
+
+  const simulation = useMemo(() => {
+    // 10-Year Timeline after Class 12 (Years 1 to 10; Ages 18 to 28)
+    // Path A: Join Tier-2 College Now (4 yrs college, earns in Years 5, 6, 7, 8, 9, 10 -> 6 earning years)
+    // Path B: Take 1 Drop Year (1 yr coaching + 4 yrs college, earns in Years 6, 7, 8, 9, 10 -> 5 earning years)
+    const years = [];
+    let cumPathA = -10; // ~10L tuition over 4 yrs
+    let cumPathBSuccess = -(10 + dropCoachingCostLakhs); // tuition + drop coaching cost
+
+    for (let yr = 1; yr <= 10; yr++) {
+      const age = 17 + yr;
+      let payA = 0;
+      let payB = 0;
+
+      // Path A earning years: Yr 5 to Yr 10 (Job Years 1 to 6)
+      if (yr >= 5) {
+        const jobYrA = yr - 4;
+        if (upskillStrategy === "switch-yr3") {
+          // Product/Tech switch in Job Year 3 gives 45% jump
+          const mult = jobYrA >= 3 ? 1.45 * Math.pow(1.14, jobYrA - 1) : Math.pow(1.12, jobYrA - 1);
+          payA = Number((tier2StartCtc * mult).toFixed(1));
+        } else if (upskillStrategy === "masters-gate-cat") {
+          // Works Yr 5, takes Masters in Yr 6-7, re-enters at Tier-1 pay in Yr 8-10
+          if (yr === 5) payA = tier2StartCtc;
+          else if (yr === 6 || yr === 7) payA = -4; // Masters tuition net of stipend
+          else payA = Number((tier1TargetCtc * 1.15 * Math.pow(1.15, yr - 8)).toFixed(1));
+        } else {
+          // Organic 13% annual growth
+          payA = Number((tier2StartCtc * Math.pow(1.13, jobYrA - 1)).toFixed(1));
+        }
+      }
+
+      // Path B (Successful Drop) earning years: Yr 6 to Yr 10 (Job Years 1 to 5)
+      if (yr >= 6) {
+        const jobYrB = yr - 5;
+        payB = Number((tier1TargetCtc * Math.pow(1.14, jobYrB - 1)).toFixed(1));
+      }
+
+      cumPathA = Number((cumPathA + payA).toFixed(1));
+      cumPathBSuccess = Number((cumPathBSuccess + payB).toFixed(1));
+
+      years.push({
+        yr,
+        age,
+        payA,
+        payB,
+        cumPathA,
+        cumPathBSuccess
+      });
+    }
+
+    const total10YrPathA = years[9].cumPathA;
+    const total10YrPathBSuccess = years[9].cumPathBSuccess;
+    // Expected Value of Drop Year = (Prob * Success) + ((1 - Prob) * Delayed Path A)
+    const delayedPathATotal = Number((total10YrPathA - years[9].payA - dropCoachingCostLakhs).toFixed(1));
+    const expectedValueDrop = Number(
+      (
+        (dropCrackProb / 100) * total10YrPathBSuccess +
+        ((100 - dropCrackProb) / 100) * delayedPathATotal
+      ).toFixed(1)
+    );
+
+    const late20sLostYearCost = years[9].payA; // What 1 lost year at age 27-28 actually costs
+    const breakEvenRow = years.find((r) => r.yr >= 6 && r.cumPathBSuccess >= r.cumPathA);
+    const breakEvenAge = breakEvenRow ? "Age " + breakEvenRow.age + " (Yr " + breakEvenRow.yr + ")" : "Beyond Age 28 (>10 Yrs)";
+
+    let verdictTitle = "Join Now + Upskill Wins on Risk-Adjusted 10-Yr Wealth";
+    let verdictTone = "emerald";
+    if (expectedValueDrop > total10YrPathA + 8 && dropCrackProb >= 45) {
+      verdictTitle = "Drop Year Mathematically Justified (High Target Gap & High Probability)";
+      verdictTone = "amber";
+    }
+
+    return {
+      years,
+      total10YrPathA,
+      total10YrPathBSuccess,
+      expectedValueDrop,
+      late20sLostYearCost,
+      breakEvenAge,
+      verdictTitle,
+      verdictTone
+    };
+  }, [tier2StartCtc, tier1TargetCtc, dropCrackProb, upskillStrategy, dropCoachingCostLakhs]);
+
+  const maxCumBar = Math.max(
+    ...simulation.years.map((y) => Math.max(Math.abs(y.cumPathA), Math.abs(y.cumPathBSuccess))),
+    40
+  );
+
+  return (
+    <div className="rounded-3xl border border-[#E2DDD0] bg-white p-6 sm:p-8 shadow-xs">
+      <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between border-b border-[#E2DDD0] pb-5">
+        <div>
+          <p className="eyebrow-tracked text-[#A67C46]">
+            10-YEAR COMPOUNDING & OPPORTUNITY COST ENGINE
+          </p>
+          <h3 className="mt-1 font-serif-editorial text-2xl sm:text-3xl font-medium text-[#16382E]">
+            &ldquo;Take a Drop Year vs. Join Now&rdquo;{" "}
+            <span className="italic text-[#A67C46]">10-Year Simulator.</span>
+          </h3>
+          <p className="mt-1 text-xs sm:text-sm text-[#4A5550]">
+            A drop year doesn&apos;t cost your Year-1 starting salary—it costs 1 year of{" "}
+            <strong className="text-[#16382E]">peak Age-27 compounding</strong>. Compare both paths
+            objectively:
+          </p>
+        </div>
+
+        <span
+          className={
+            "self-start sm:self-auto rounded-full px-4 py-1.5 text-xs font-bold " +
+            (simulation.verdictTone === "emerald"
+              ? "bg-[#194236] text-white"
+              : "bg-[#A67C46] text-white")
+          }
+        >
+          {simulation.verdictTitle}
+        </span>
+      </div>
+
+      {/* Interactive Controls Grid */}
+      <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="rounded-2xl border border-[#E2DDD0] bg-[#F9F7F1] p-4">
+          <div className="flex justify-between text-xs font-bold text-[#16382E]">
+            <span>Path A: Current College CTC</span>
+            <span>₹{tier2StartCtc} LPA</span>
+          </div>
+          <input
+            type="range"
+            min="4"
+            max="20"
+            step="1"
+            value={tier2StartCtc}
+            onChange={(e) => setTier2StartCtc(Number(e.target.value))}
+            className="mt-2.5 w-full accent-[#194236] cursor-pointer"
+          />
+          <p className="mt-1 text-[11px] text-[#4A5550]">
+            Tier-2 / State CET / Private seat in hand now
+          </p>
+        </div>
+
+        <div className="rounded-2xl border border-[#E2DDD0] bg-[#F9F7F1] p-4">
+          <div className="flex justify-between text-xs font-bold text-[#16382E]">
+            <span>Path B: Drop Target CTC</span>
+            <span>₹{tier1TargetCtc} LPA</span>
+          </div>
+          <input
+            type="range"
+            min="12"
+            max="45"
+            step="1"
+            value={tier1TargetCtc}
+            onChange={(e) => setTier1TargetCtc(Number(e.target.value))}
+            className="mt-2.5 w-full accent-[#A67C46] cursor-pointer"
+          />
+          <p className="mt-1 text-[11px] text-[#4A5550]">
+            Expected starting pay if Drop Year succeeds ({examName})
+          </p>
+        </div>
+
+        <div className="rounded-2xl border border-[#E2DDD0] bg-[#F9F7F1] p-4">
+          <div className="flex justify-between text-xs font-bold text-[#16382E]">
+            <span>Drop Success Probability</span>
+            <span>{dropCrackProb}%</span>
+          </div>
+          <input
+            type="range"
+            min="10"
+            max="85"
+            step="5"
+            value={dropCrackProb}
+            onChange={(e) => setDropCrackProb(Number(e.target.value))}
+            className="mt-2.5 w-full accent-[#194236] cursor-pointer"
+          />
+          <p className="mt-1 text-[11px] text-[#4A5550]">
+            Realistic odds of jumping to Tier-1 next year
+          </p>
+        </div>
+
+        <div className="rounded-2xl border border-[#E2DDD0] bg-[#F9F7F1] p-4">
+          <label className="block text-xs font-bold text-[#16382E] mb-1.5">
+            Path A Upskill / Pivot Strategy
+          </label>
+          <select
+            value={upskillStrategy}
+            onChange={(e) => setUpskillStrategy(e.target.value)}
+            className="w-full rounded-xl border border-[#E2DDD0] bg-white px-2.5 py-1.5 text-xs font-semibold text-[#16382E] focus:border-[#16382E] focus:outline-none cursor-pointer"
+          >
+            <option value="switch-yr3">Off-Campus Product Switch in Yr 3 (+45%)</option>
+            <option value="masters-gate-cat">GATE / CAT / MS Pivot After Degree</option>
+            <option value="organic">Steady Organic Growth (13% p.a.)</option>
+          </select>
+          <p className="mt-1.5 text-[11px] text-[#4A5550]">
+            How you use the 1-year headstart in Path A
+          </p>
+        </div>
+      </div>
+
+      {/* 4 Key KPI Summary Cards */}
+      <div className="mt-6 grid grid-cols-2 gap-3.5 lg:grid-cols-4">
+        <div className="rounded-2xl border border-[#194236]/25 bg-[#194236]/[0.05] p-4">
+          <p className="text-[11px] font-bold uppercase tracking-wider text-[#194236]">
+            Path A: Join Now (10-Yr Net)
+          </p>
+          <p className="mt-1 font-serif-editorial text-2xl font-semibold text-[#16382E]">
+            ₹{simulation.total10YrPathA} Lakhs
+          </p>
+          <p className="mt-0.5 text-[11px] text-[#4A5550]">
+            6 full earning years by Age 27 (Zero year lost)
+          </p>
+        </div>
+
+        <div className="rounded-2xl border border-[#A67C46]/35 bg-[#A67C46]/10 p-4">
+          <p className="text-[11px] font-bold uppercase tracking-wider text-[#87602F]">
+            Path B: Drop Year (If Cracked)
+          </p>
+          <p className="mt-1 font-serif-editorial text-2xl font-semibold text-[#16382E]">
+            ₹{simulation.total10YrPathBSuccess} Lakhs
+          </p>
+          <p className="mt-0.5 text-[11px] text-[#4A5550]">
+            5 earning years by Age 27 (100% success case)
+          </p>
+        </div>
+
+        <div className="rounded-2xl border border-[#E2DDD0] bg-[#F9F7F1] p-4">
+          <p className="text-[11px] font-bold uppercase tracking-wider text-[#4A5550]">
+            Probability-Adjusted Drop EV
+          </p>
+          <p className="mt-1 font-serif-editorial text-2xl font-semibold text-[#16382E]">
+            ₹{simulation.expectedValueDrop} Lakhs
+          </p>
+          <p className="mt-0.5 text-[11px] text-[#4A5550]">
+            Weighted for {dropCrackProb}% crack odds
+          </p>
+        </div>
+
+        <div className="rounded-2xl border border-[#E2DDD0] bg-[#F9F7F1] p-4">
+          <p className="text-[11px] font-bold uppercase tracking-wider text-[#4A5550]">
+            Drop Break-Even Age
+          </p>
+          <p className="mt-1 font-serif-editorial text-xl sm:text-2xl font-semibold text-[#16382E]">
+            {simulation.breakEvenAge}
+          </p>
+          <p className="mt-0.5 text-[11px] text-[#4A5550]">
+            1-Yr Delay costs ~₹{simulation.late20sLostYearCost}L at Age 27
+          </p>
+        </div>
+      </div>
+
+      {/* Visual Year-by-Year Cumulative Wealth Comparison Bars (Years 4 to 10) */}
+      <div className="mt-6 rounded-2xl border border-[#D8D0C0] bg-[#F3EFE6] p-5 text-[#16382E]">
+        <div className="flex flex-wrap items-center justify-between gap-2 mb-4">
+          <div>
+            <p className="text-xs font-bold uppercase tracking-wider text-[#A67C46]">
+              YEAR-BY-YEAR CUMULATIVE EARNINGS TRAJECTORY (AGE 21 TO AGE 27)
+            </p>
+            <p className="text-xs text-[#4A5550]">
+              Comparing Path A (Join Now + Upskill) vs Path B (Drop Year Success) net cumulative cashflow
+            </p>
+          </div>
+          <div className="flex items-center gap-4 text-xs font-semibold text-[#16382E]">
+            <span className="flex items-center gap-1.5">
+              <span className="h-2.5 w-2.5 rounded-full bg-[#1E6B4E]" />
+              Path A: Join Now
+            </span>
+            <span className="flex items-center gap-1.5">
+              <span className="h-2.5 w-2.5 rounded-full bg-[#C88A32]" />
+              Path B: Drop Year
+            </span>
+          </div>
+        </div>
+
+        <div className="space-y-3">
+          {simulation.years.slice(3).map((row) => {
+            const pctA = Math.max(4, Math.min(100, (Math.max(0, row.cumPathA) / maxCumBar) * 100));
+            const pctB = Math.max(4, Math.min(100, (Math.max(0, row.cumPathBSuccess) / maxCumBar) * 100));
+            return (
+              <div key={row.yr} className="grid grid-cols-12 items-center gap-3 text-xs">
+                <div className="col-span-3 sm:col-span-2 text-[#16382E] font-bold">
+                  Yr {row.yr} (Age {row.age})
+                </div>
+                <div className="col-span-9 sm:col-span-10 space-y-1">
+                  <div className="flex items-center gap-2">
+                    <div
+                      className="h-3.5 rounded-r-full bg-[#1E6B4E] transition-all duration-300"
+                      style={{ width: pctA + "%" }}
+                    />
+                    <span className="text-[11px] font-bold text-[#1E6B4E]">
+                      ₹{row.cumPathA}L (Annual: ₹{row.payA}L)
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div
+                      className="h-3.5 rounded-r-full bg-[#C88A32] transition-all duration-300"
+                      style={{ width: pctB + "%" }}
+                    />
+                    <span className="text-[11px] font-bold text-[#9A6519]">
+                      ₹{row.cumPathBSuccess}L (Annual: ₹{row.payB}L)
+                    </span>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
+      {onAskAi && (
+        <div className="mt-5 flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-[#E2DDD0]">
+          <p className="text-xs text-[#4A5550]">
+            Unsure whether your mock scores justify a drop year or if you should join your current
+            college offer?
+          </p>
+          <button
+            type="button"
+            onClick={() =>
+              onAskAi(
+                "Help me decide between taking a Drop Year vs Joining Now. My current college option offers ~INR " +
+                  tier2StartCtc +
+                  " LPA starting pay, while my drop-year target offers ~INR " +
+                  tier1TargetCtc +
+                  " LPA with an estimated " +
+                  dropCrackProb +
+                  "% success probability. Give me a brutally honest recommendation."
+              )
+            }
+            className="rounded-full bg-[#194236] px-5 py-2.5 text-xs font-semibold text-white hover:bg-[#123027] cursor-pointer"
+          >
+            Debate Drop vs. Join Now with Gemini 2.5 Pro →
+          </button>
+        </div>
+      )}
+    </div>
+  );
 }
 
 export default function App() {
@@ -2002,6 +3997,8 @@ export default function App() {
 
   // Active Modals
   const [activeTrajectoryExam, setActiveTrajectoryExam] = useState(null);
+  const [trajectoryModalTab, setTrajectoryModalTab] = useState("trajectory");
+  const [studioPredictorExamId, setStudioPredictorExamId] = useState("bitsat");
   const [isShortlistModalOpen, setIsShortlistModalOpen] = useState(false);
   const [isFamilyDossierOpen, setIsFamilyDossierOpen] = useState(false);
 
@@ -2012,11 +4009,13 @@ export default function App() {
 
   // Live Gemini 2.5 AI Career Counsellor State
   const [isCounsellorOpen, setIsCounsellorOpen] = useState(false);
+  const [isCounsellorWide, setIsCounsellorWide] = useState(false);
   const [selectedModel, setSelectedModel] = useState("gemini-2.5-pro");
   const [customApiKey, setCustomApiKey] = useState(() =>
     safeStorageGet("disha_gemini_api_key", DEFAULT_GEMINI_API_KEY)
   );
   const [showApiSettings, setShowApiSettings] = useState(false);
+  const [showQuickPromptsBar, setShowQuickPromptsBar] = useState(false);
   const [chatInput, setChatInput] = useState("");
   const [isGenerating, setIsGenerating] = useState(false);
   const [apiNotice, setApiNotice] = useState("");
@@ -2340,6 +4339,10 @@ export default function App() {
       setSelectedModel(forceModel);
     }
 
+    // Auto-collapse settings and prompt popover so the chat viewport stays spacious
+    setShowApiSettings(false);
+    setShowQuickPromptsBar(false);
+
     const userMsg = {
       id: "u-" + Date.now(),
       role: "user",
@@ -2466,6 +4469,20 @@ export default function App() {
     }, 120);
   };
 
+  const resetCounsellorChat = () => {
+    setApiNotice("");
+    setShowQuickPromptsBar(false);
+    setMessages([
+      {
+        id: "welcome-msg",
+        role: "assistant",
+        modelUsed: selectedModel,
+        isFallback: false,
+        text: "Hi! I am your Disha AI Career Mentor. Whether you want to just chat about exam stress, figure out a backup plan, or compare 10-year salaries across PCM, PCB, and PCMB—I'm here. What is on your mind today?"
+      }
+    ]);
+  };
+
   return (
     <div className="min-h-screen disha-ivory-canvas text-[#16382E] antialiased selection:bg-[#16382E] selection:text-white pb-20">
       <style>{`
@@ -2497,6 +4514,34 @@ export default function App() {
           font-weight: 600;
           text-transform: uppercase;
           letter-spacing: 0.16em;
+        }
+
+        @keyframes dishaPopupEntrance {
+          0% {
+            opacity: 0;
+            transform: translateY(18px) scale(0.95);
+          }
+          70% {
+            opacity: 1;
+            transform: translateY(-3px) scale(1.015);
+          }
+          100% {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+          }
+        }
+
+        .disha-popup-card {
+          animation: dishaPopupEntrance 0.65s cubic-bezier(0.22, 1, 0.36, 1) both;
+          transition: transform 0.32s cubic-bezier(0.34, 1.56, 0.64, 1),
+                      box-shadow 0.28s ease,
+                      border-color 0.25s ease;
+        }
+
+        .disha-popup-card:hover {
+          transform: translateY(-7px) scale(1.025);
+          box-shadow: 0 18px 34px -10px rgba(22, 56, 46, 0.14);
+          border-color: #A67C46;
         }
 
         @media print {
@@ -2569,6 +4614,14 @@ export default function App() {
             </button>
             <button
               type="button"
+              onClick={() => scrollToSection("score-predictor-studio")}
+              className="text-xs font-semibold text-[#16382E] transition-colors hover:text-[#A67C46] cursor-pointer flex items-center gap-1"
+            >
+              <span className="h-1.5 w-1.5 rounded-full bg-[#22C55E]" />
+              Score & Cutoff Predictor
+            </button>
+            <button
+              type="button"
               onClick={() => scrollToSection("exam-encyclopedia")}
               className="text-xs font-semibold text-[#4A5550] transition-colors hover:text-[#16382E] cursor-pointer"
             >
@@ -2576,17 +4629,17 @@ export default function App() {
             </button>
             <button
               type="button"
+              onClick={() => scrollToSection("drop-year-simulator")}
+              className="text-xs font-semibold text-[#4A5550] transition-colors hover:text-[#16382E] cursor-pointer"
+            >
+              Drop Year vs. Join Now
+            </button>
+            <button
+              type="button"
               onClick={() => scrollToSection("portfolio-board")}
               className="text-xs font-semibold text-[#4A5550] transition-colors hover:text-[#16382E] cursor-pointer"
             >
               4-Bucket Portfolio ({portfolioItems.length})
-            </button>
-            <button
-              type="button"
-              onClick={() => scrollToSection("exam-calendar")}
-              className="text-xs font-semibold text-[#4A5550] transition-colors hover:text-[#16382E] cursor-pointer"
-            >
-              Jan–June Clash Detector
             </button>
             <div className="h-4 w-px bg-[#E2DDD0]" />
             <span className="inline-flex items-center gap-1.5 rounded-full border border-[#E2DDD0] bg-white px-3 py-1 text-xs font-semibold text-[#16382E]">
@@ -2738,15 +4791,61 @@ export default function App() {
             </div>
           </div>
 
-          {/* Editorial Key Pillars Strip */}
+          {/* Editorial Key Pillars Strip (Unified Warm White Aesthetics + Popup Animations) */}
           <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
             <div
-              onClick={() => setIsCompareModalOpen(true)}
-              className="rounded-2xl border border-[#E2DDD0] bg-white p-5 transition-all hover:border-[#A67C46] cursor-pointer"
+              onClick={() => scrollToSection("score-predictor-studio")}
+              style={{ animationDelay: "40ms" }}
+              className="group disha-popup-card rounded-2xl border border-[#E2DDD0] bg-white p-5 cursor-pointer"
             >
-              <p className="eyebrow-tracked text-[#A67C46]">01 · 3-EXAM COMPARATOR</p>
+              <div className="flex items-center justify-between">
+                <p className="eyebrow-tracked text-[#A67C46]">01 · 26 EXAMS + BOARDS</p>
+                <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#F9F7F1] text-xs font-bold text-[#16382E] transition-transform duration-300 group-hover:scale-110 group-hover:bg-[#194236] group-hover:text-white">
+                  ↗
+                </span>
+              </div>
               <p className="mt-2 font-serif-editorial text-lg font-medium text-[#16382E]">
-                Side-by-Side Matrix
+                Interactive Score Predictor
+              </p>
+              <p className="mt-1.5 text-xs sm:text-sm leading-relaxed text-[#4A5550]">
+                Simulate accuracy, negative marking & bonus questions against live GEN/OBC/SC/ST
+                cutoffs across all 26 exams + Boards.
+              </p>
+            </div>
+
+            <div
+              onClick={() => scrollToSection("drop-year-simulator")}
+              style={{ animationDelay: "130ms" }}
+              className="group disha-popup-card rounded-2xl border border-[#E2DDD0] bg-white p-5 cursor-pointer"
+            >
+              <div className="flex items-center justify-between">
+                <p className="eyebrow-tracked text-[#A67C46]">02 · DROP VS. JOIN NOW</p>
+                <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#F9F7F1] text-xs font-bold text-[#16382E] transition-transform duration-300 group-hover:scale-110 group-hover:bg-[#194236] group-hover:text-white">
+                  ↗
+                </span>
+              </div>
+              <p className="mt-2 font-serif-editorial text-lg font-medium text-[#16382E]">
+                10-Year Wealth Simulator
+              </p>
+              <p className="mt-1.5 text-xs sm:text-sm leading-relaxed text-[#4A5550]">
+                Compare taking a drop year vs. joining a Tier-2 college now + GATE/CAT/Product
+                pivots over 10 years.
+              </p>
+            </div>
+
+            <div
+              onClick={() => setIsCompareModalOpen(true)}
+              style={{ animationDelay: "220ms" }}
+              className="group disha-popup-card rounded-2xl border border-[#E2DDD0] bg-white p-5 cursor-pointer"
+            >
+              <div className="flex items-center justify-between">
+                <p className="eyebrow-tracked text-[#A67C46]">03 · 3-EXAM COMPARATOR</p>
+                <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#F9F7F1] text-xs font-bold text-[#16382E] transition-transform duration-300 group-hover:scale-110 group-hover:bg-[#194236] group-hover:text-white">
+                  ↗
+                </span>
+              </div>
+              <p className="mt-2 font-serif-editorial text-lg font-medium text-[#16382E]">
+                Side-by-Side ROI Matrix
               </p>
               <p className="mt-1.5 text-xs sm:text-sm leading-relaxed text-[#4A5550]">
                 Compare up to 3 exams across syllabus overlap, 5-year tuition, Year 1–10 pay, and
@@ -2755,37 +4854,16 @@ export default function App() {
             </div>
 
             <div
-              onClick={() => scrollToSection("portfolio-board")}
-              className="rounded-2xl border border-[#E2DDD0] bg-white p-5 transition-all hover:border-[#A67C46] cursor-pointer"
-            >
-              <p className="eyebrow-tracked text-[#A67C46]">02 · 4-BUCKET STRATEGY</p>
-              <p className="mt-2 font-serif-editorial text-lg font-medium text-[#16382E]">
-                Dream · Target · Wildcard · Backup
-              </p>
-              <p className="mt-1.5 text-xs sm:text-sm leading-relaxed text-[#4A5550]">
-                Categorize your exams with automatic portfolio risk alerts and education loan EMI
-                simulations.
-              </p>
-            </div>
-
-            <div
-              onClick={() => scrollToSection("exam-calendar")}
-              className="rounded-2xl border border-[#E2DDD0] bg-white p-5 transition-all hover:border-[#A67C46] cursor-pointer"
-            >
-              <p className="eyebrow-tracked text-[#A67C46]">03 · JAN–JUNE CALENDAR</p>
-              <p className="mt-2 font-serif-editorial text-lg font-medium text-[#16382E]">
-                Season Clash Detector
-              </p>
-              <p className="mt-1.5 text-xs sm:text-sm leading-relaxed text-[#4A5550]">
-                Spot the May exam crunch where NEET, JEE Adv, IPMAT, CUET, and IAT collide.
-              </p>
-            </div>
-
-            <div
               onClick={() => setIsFamilyDossierOpen(true)}
-              className="rounded-2xl border border-[#E2DDD0] bg-white p-5 transition-all hover:border-[#A67C46] cursor-pointer"
+              style={{ animationDelay: "310ms" }}
+              className="group disha-popup-card rounded-2xl border border-[#E2DDD0] bg-white p-5 cursor-pointer"
             >
-              <p className="eyebrow-tracked text-[#A67C46]">04 · PARENT DOSSIER</p>
+              <div className="flex items-center justify-between">
+                <p className="eyebrow-tracked text-[#A67C46]">04 · PARENT DOSSIER</p>
+                <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#F9F7F1] text-xs font-bold text-[#16382E] transition-transform duration-300 group-hover:scale-110 group-hover:bg-[#194236] group-hover:text-white">
+                  ↗
+                </span>
+              </div>
               <p className="mt-2 font-serif-editorial text-lg font-medium text-[#16382E]">
                 Printable Family Report
               </p>
@@ -3062,22 +5140,22 @@ export default function App() {
                       return (
                         <div
                           key={exam.id}
-                          className="flex flex-col justify-between rounded-2xl border border-[#E2DDD0] bg-[#F9F7F1]/60 p-5 transition-all hover:border-[#A67C46] hover:bg-white"
+                          className="flex flex-col justify-between rounded-2xl border border-[#E2DDD0] bg-[#F9F7F1]/70 p-5 transition-all hover:border-[#A67C46] hover:bg-white"
                         >
                           <div>
                             <div className="flex items-center justify-between gap-2">
-                              <span className="inline-flex items-center rounded-full bg-[#194236] px-2.5 py-0.5 text-[11px] font-bold text-white">
-                                #{idx + 1} · {exam.fitScore}% Match
+                              <span className="rounded-full bg-[#194236] px-3 py-1 text-[11px] font-bold text-white">
+                                #{idx + 1} · {exam.fitScore}% Fit
                               </span>
                               <div className="flex items-center gap-1.5">
                                 <button
                                   type="button"
                                   onClick={() => toggleCompareExam(exam.id)}
                                   className={
-                                    "rounded-full border px-2 py-0.5 text-[10px] font-semibold transition-colors cursor-pointer " +
+                                    "rounded-full border px-2.5 py-1 text-[10px] font-bold transition-colors cursor-pointer " +
                                     (isCompared
                                       ? "border-[#194236] bg-[#194236] text-white"
-                                      : "border-[#E2DDD0] bg-white text-[#4A5550] hover:text-[#16382E]")
+                                      : "border-[#E2DDD0] bg-white text-[#4A5550] hover:border-[#16382E]")
                                   }
                                 >
                                   {isCompared ? "Comparing ✓" : "+ Compare"}
@@ -3086,36 +5164,50 @@ export default function App() {
                                   type="button"
                                   onClick={() => toggleShortlist(exam.id)}
                                   className={
-                                    "rounded-full border px-2.5 py-0.5 text-[10px] font-semibold transition-colors cursor-pointer " +
+                                    "rounded-full border px-2.5 py-1 text-[10px] font-bold transition-colors cursor-pointer " +
                                     (currentBucket
-                                      ? "border-[#A67C46] bg-[#A67C46]/15 text-[#855F2E]"
-                                      : "border-[#E2DDD0] bg-white text-[#4A5550] hover:text-[#16382E]")
+                                      ? "border-[#A67C46] bg-[#A67C46] text-white"
+                                      : "border-[#E2DDD0] bg-white text-[#16382E] hover:border-[#A67C46]")
                                   }
                                 >
-                                  {currentBucket ? currentBucket + " ✓" : "+ Portfolio"}
+                                  {currentBucket ? currentBucket + " ★" : "+ Portfolio"}
                                 </button>
                               </div>
                             </div>
 
-                            <p className="mt-3 text-[11px] font-semibold uppercase tracking-wider text-[#A67C46]">
-                              {exam.streamCategory} · {exam.domain}
-                            </p>
-                            <h5 className="mt-1 font-serif-editorial text-lg font-medium text-[#16382E]">
+                            <h5 className="mt-3.5 font-serif-editorial text-lg font-medium text-[#16382E]">
                               {exam.name}
                             </h5>
-                            <p className="mt-1 text-xs font-medium text-[#4A5550]">{exam.degree}</p>
-                            <p className="mt-2 inline-block rounded-lg border border-[#E2DDD0] bg-white px-2.5 py-1 text-[11px] font-medium text-[#16382E]">
-                              Synergy: {exam.prepSynergy}
+                            <p className="mt-1 text-xs font-semibold text-[#A67C46]">
+                              {exam.degree}
+                            </p>
+                            <p className="mt-2 text-xs leading-relaxed text-[#4A5550]">
+                              {exam.summary}
                             </p>
                           </div>
 
-                          <button
-                            type="button"
-                            onClick={() => setActiveTrajectoryExam(exam)}
-                            className="mt-4 w-full rounded-full border border-[#16382E]/25 bg-white py-2 text-xs font-semibold text-[#16382E] transition-colors hover:bg-[#194236] hover:text-white cursor-pointer"
-                          >
-                            View 10-Year Life Trajectory →
-                          </button>
+                          <div className="mt-4 pt-3 border-t border-[#E2DDD0] grid grid-cols-2 gap-2">
+                            <button
+                              type="button"
+                              onClick={() => {
+                                setTrajectoryModalTab("predictor");
+                                setActiveTrajectoryExam(exam);
+                              }}
+                              className="rounded-full border border-[#16382E]/25 bg-white px-3 py-2 text-center text-xs font-semibold text-[#16382E] transition-colors hover:border-[#16382E] cursor-pointer"
+                            >
+                              🎯 Predictor
+                            </button>
+                            <button
+                              type="button"
+                              onClick={() => {
+                                setTrajectoryModalTab("trajectory");
+                                setActiveTrajectoryExam(exam);
+                              }}
+                              className="rounded-full bg-[#194236] px-3 py-2 text-center text-xs font-semibold text-white transition-colors hover:bg-[#123027] cursor-pointer"
+                            >
+                              10-Yr Path →
+                            </button>
+                          </div>
                         </div>
                       );
                     })}
@@ -3124,6 +5216,65 @@ export default function App() {
               </div>
             )
           )}
+        </div>
+      </section>
+
+      {/* SECTION 1.5: VISUAL INTERACTIVE SCORE & BRANCH/COLLEGE CUTOFF PREDICTOR STUDIO (ALL 26 EXAMS + BOARDS) */}
+      <section
+        id="score-predictor-studio"
+        className="py-16 sm:py-20 border-b border-[#E2DDD0]/80 no-print"
+      >
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+          <div className="mb-8 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <div className="mb-3 flex items-center gap-3">
+                <span
+                  className="inline-block bg-[#A67C46]"
+                  style={{ width: "24px", height: "1.5px" }}
+                />
+                <span className="eyebrow-tracked text-[#A67C46]">
+                  LIVE ACCURACY, NEGATIVE MARKING & CUTOFF ENGINE
+                </span>
+              </div>
+              <h2 className="font-serif-editorial text-3xl font-medium text-[#16382E] sm:text-4xl">
+                Interactive Score &{" "}
+                <span className="italic text-[#A67C46]">Cutoff Predictor Studio.</span>
+              </h2>
+              <p className="mt-2 max-w-2xl text-sm sm:text-base text-[#4A5550]">
+                Test how question attempts, accuracy %, and bonus sections move your live score line
+                across all <strong>26 Entrance Exams</strong> and{" "}
+                <strong>Class 12 Board Eligibility Gates</strong> (including{" "}
+                <strong>GEN, OBC-NCL, SC & ST</strong> merit cutoffs).
+              </p>
+            </div>
+
+            <div className="flex flex-wrap items-center gap-2">
+              <button
+                type="button"
+                onClick={() =>
+                  setStudioPredictorExamId((prev) =>
+                    prev === "boards-12" ? "bitsat" : "boards-12"
+                  )
+                }
+                className={
+                  "rounded-full px-4 py-2.5 text-xs font-bold transition-all cursor-pointer " +
+                  (studioPredictorExamId === "boards-12"
+                    ? "bg-[#194236] text-white shadow-xs"
+                    : "border border-[#E2DDD0] bg-white text-[#16382E] hover:border-[#A67C46]")
+                }
+              >
+                🎓 Class 12 Boards Gatekeeper
+              </button>
+            </div>
+          </div>
+
+          <InteractiveScorePredictor
+            examId={studioPredictorExamId}
+            onSelectExamId={setStudioPredictorExamId}
+            studentStream={studentStream}
+            showExamSelector={true}
+            onAskAi={(promptText) => openCounsellorWithPrompt(promptText, "gemini-2.5-pro")}
+          />
         </div>
       </section>
 
@@ -3355,16 +5506,15 @@ export default function App() {
                       </div>
                     </div>
 
-                    {/* Footer Meta + Trajectory Button */}
-                    <div className="mt-5 border-t border-[#E2DDD0] pt-4">
-                      <div className="flex items-center justify-between gap-2 text-xs mb-3">
-                        <span className="text-[#4A5550]">
-                          Fee: <strong className="text-[#16382E]">~₹{exam.avgTotalFeeLakhs}L</strong> · Entry:{" "}
-                          <strong className="text-[#16382E]">~₹{exam.avgEntrySalaryLakhs} LPA</strong>
+                    {/* Card Footer */}
+                    <div className="mt-5 pt-4 border-t border-[#E2DDD0]/80">
+                      <div className="mb-3 flex items-center justify-between text-xs">
+                        <span className="text-[#4A5550] truncate max-w-[60%]">
+                          Est. Fee: ~₹{exam.avgTotalFeeLakhs}L · Yr-1: ~₹{exam.avgEntrySalaryLakhs}L
                         </span>
                         <span
                           className={
-                            "shrink-0 rounded-full px-2.5 py-0.5 text-[10px] font-semibold " +
+                            "rounded-full px-2.5 py-0.5 text-[11px] font-bold " +
                             (exam.roiTone === "emerald"
                               ? "bg-[#194236]/10 text-[#194236]"
                               : "bg-[#A67C46]/15 text-[#87602F]")
@@ -3374,19 +5524,48 @@ export default function App() {
                         </span>
                       </div>
 
-                      <button
-                        type="button"
-                        onClick={() => setActiveTrajectoryExam(exam)}
-                        className="w-full rounded-full bg-[#194236] px-4 py-2.5 text-xs font-semibold text-white transition-colors hover:bg-[#123027] cursor-pointer"
-                      >
-                        View 10-Year Trajectory & Loan EMI →
-                      </button>
+                      <div className="grid grid-cols-2 gap-2">
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setTrajectoryModalTab("predictor");
+                            setActiveTrajectoryExam(exam);
+                          }}
+                          className="rounded-full border border-[#16382E]/25 bg-[#F9F7F1] px-3 py-2.5 text-xs font-semibold text-[#16382E] transition-colors hover:border-[#16382E] hover:bg-white cursor-pointer"
+                        >
+                          🎯 Score Predictor
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setTrajectoryModalTab("trajectory");
+                            setActiveTrajectoryExam(exam);
+                          }}
+                          className="rounded-full bg-[#194236] px-3 py-2.5 text-xs font-semibold text-white transition-colors hover:bg-[#123027] cursor-pointer"
+                        >
+                          10-Yr Trajectory →
+                        </button>
+                      </div>
                     </div>
                   </article>
                 );
               })}
             </div>
           )}
+        </div>
+      </section>
+
+      {/* SECTION 2.5: "TAKE A DROP YEAR VS. JOIN NOW" 10-YEAR WEALTH & TRAJECTORY SIMULATOR */}
+      <section
+        id="drop-year-simulator"
+        className="py-16 sm:py-20 border-b border-[#E2DDD0]/80 no-print"
+      >
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <DropYearSimulator
+            defaultTier1Pay={studentStream === "PCB" ? 18 : 24}
+            examName={studentStream === "PCB" ? "AIIMS / Govt MBBS / IISER" : "IIT / NIT / BITS / IISER"}
+            onAskAi={(promptText) => openCounsellorWithPrompt(promptText, "gemini-2.5-pro")}
+          />
         </div>
       </section>
 
@@ -3687,16 +5866,16 @@ export default function App() {
               <span className="text-xs font-bold uppercase tracking-wider text-[#E6C594]">
                 Comparator ({compareExamsList.length}/3):
               </span>
-              {compareExamsList.map((exam) => (
+              {compareExamsList.map((cExam) => (
                 <span
-                  key={exam.id}
-                  className="inline-flex items-center gap-1.5 rounded-full bg-white/15 px-3 py-1 text-xs font-medium text-white"
+                  key={cExam.id}
+                  className="inline-flex items-center gap-1.5 rounded-full bg-white/12 px-3 py-1 text-xs font-medium text-white"
                 >
-                  <span className="truncate max-w-[140px]">{exam.name}</span>
+                  <span className="truncate max-w-[130px]">{cExam.name}</span>
                   <button
                     type="button"
-                    onClick={() => toggleCompareExam(exam.id)}
-                    className="text-[#E6C594] hover:text-white cursor-pointer"
+                    onClick={() => toggleCompareExam(cExam.id)}
+                    className="text-white/70 hover:text-white cursor-pointer"
                   >
                     ✕
                   </button>
@@ -3708,7 +5887,7 @@ export default function App() {
               <button
                 type="button"
                 onClick={() => setCompareIds([])}
-                className="rounded-full px-3 py-1.5 text-xs font-semibold text-[#D6DDD9] hover:text-white cursor-pointer"
+                className="text-xs text-white/75 hover:text-white px-2 py-1 cursor-pointer"
               >
                 Clear
               </button>
@@ -3725,48 +5904,55 @@ export default function App() {
       )}
 
       {/* EDITORIAL FOOTER */}
-      <footer className="border-t border-[#E2DDD0] bg-white py-10 no-print">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 sm:flex-row sm:px-6 lg:px-8">
+      <footer className="border-t border-[#E2DDD0] bg-white/80 py-10 no-print">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div>
-            <span className="font-serif-editorial text-lg font-semibold text-[#16382E]">
+            <p className="font-serif-editorial text-lg font-semibold text-[#16382E]">
               Disha <span className="italic font-normal text-[#A67C46]">Editorial</span>
-            </span>
-            <p className="mt-1 text-xs text-[#4A5550]">
-              Built for Indian Class 12 PCMB, PCM & PCB students · 26 Exam Pathways, Loan ROI
-              Simulator & Gemini 2.5 AI Mentor.
+            </p>
+            <p className="text-xs text-[#4A5550]">
+              Built for Class 12 PCMB, PCM & PCB Students · Interactive Score Predictor, 10-Yr
+              Trajectories & Gemini 2.5 Mentor
             </p>
           </div>
           <div className="flex flex-wrap items-center gap-3">
             <button
               type="button"
-              onClick={() => setIsFamilyDossierOpen(true)}
-              className="rounded-full border border-[#E2DDD0] bg-[#F9F7F1] px-5 py-2.5 text-xs font-semibold text-[#16382E] hover:border-[#16382E] cursor-pointer"
+              onClick={() => scrollToSection("score-predictor-studio")}
+              className="rounded-full border border-[#16382E]/25 bg-white px-4 py-2 text-xs font-semibold text-[#16382E] hover:border-[#16382E] cursor-pointer"
             >
-              Family Dossier (Print / PDF)
+              Score Predictor Studio 🎯
+            </button>
+            <button
+              type="button"
+              onClick={() => setIsFamilyDossierOpen(true)}
+              className="rounded-full border border-[#16382E]/25 bg-white px-4 py-2 text-xs font-semibold text-[#16382E] hover:border-[#16382E] cursor-pointer"
+            >
+              Family Dossier (Print / PDF) 🖨️
             </button>
             <button
               type="button"
               onClick={() => setIsCounsellorOpen(true)}
-              className="rounded-full bg-[#194236] px-5 py-2.5 text-xs font-semibold text-white hover:bg-[#123027] cursor-pointer"
+              className="rounded-full bg-[#194236] px-5 py-2 text-xs font-semibold text-white hover:bg-[#123027] cursor-pointer"
             >
-              Open Gemini 2.5 AI Mentor
+              Consult Gemini 2.5 Mentor →
             </button>
           </div>
         </div>
       </footer>
 
-      {/* MODAL 1: 10-YEAR LIFE TRAJECTORY + EDUCATION LOAN BREAK-EVEN CALCULATOR */}
+      {/* MODAL 1: 10-YEAR LIFE TRAJECTORY + SCORE PREDICTOR + DROP SIMULATOR + LOAN EMI */}
       {activeTrajectoryExam && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center bg-[#16382E]/60 p-3 sm:p-6 backdrop-blur-xs no-print"
           onClick={() => setActiveTrajectoryExam(null)}
         >
           <div
-            className="relative max-h-[90vh] w-full max-w-3xl overflow-y-auto rounded-3xl border border-[#E2DDD0] bg-[#F9F7F1] p-6 sm:p-8 shadow-2xl"
+            className="relative max-h-[92vh] w-full max-w-4xl overflow-y-auto rounded-3xl border border-[#E2DDD0] bg-[#F9F7F1] p-5 sm:p-8 shadow-2xl"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Modal Header */}
-            <div className="flex items-start justify-between gap-4 border-b border-[#E2DDD0] pb-5">
+            <div className="flex items-start justify-between gap-4 border-b border-[#E2DDD0] pb-4">
               <div>
                 <div className="flex flex-wrap items-center gap-2">
                   <span className="rounded-full bg-[#194236] px-3 py-1 text-[11px] font-bold text-white">
@@ -3801,7 +5987,75 @@ export default function App() {
               </button>
             </div>
 
-            {/* 5 Structured Trajectory Sections (Including Loan & ROI Simulator) */}
+            {/* Modal Interactive View Switcher Tabs */}
+            <div className="mt-4 flex flex-wrap items-center gap-2 border-b border-[#E2DDD0] pb-4">
+              <button
+                type="button"
+                onClick={() => setTrajectoryModalTab("trajectory")}
+                className={
+                  "rounded-full px-4 py-2 text-xs font-bold transition-all cursor-pointer " +
+                  (trajectoryModalTab === "trajectory"
+                    ? "bg-[#194236] text-white shadow-xs"
+                    : "border border-[#E2DDD0] bg-white text-[#16382E] hover:border-[#A67C46]")
+                }
+              >
+                📊 10-Year Trajectory & Loan EMI
+              </button>
+              <button
+                type="button"
+                onClick={() => setTrajectoryModalTab("predictor")}
+                className={
+                  "rounded-full px-4 py-2 text-xs font-bold transition-all cursor-pointer " +
+                  (trajectoryModalTab === "predictor"
+                    ? "bg-[#111315] text-[#22C55E] border border-[#22C55E] shadow-xs"
+                    : "border border-[#E2DDD0] bg-white text-[#16382E] hover:border-[#A67C46]")
+                }
+              >
+                🎯 Score & Branch Cutoff Predictor
+              </button>
+              <button
+                type="button"
+                onClick={() => setTrajectoryModalTab("drop-sim")}
+                className={
+                  "rounded-full px-4 py-2 text-xs font-bold transition-all cursor-pointer " +
+                  (trajectoryModalTab === "drop-sim"
+                    ? "bg-[#A67C46] text-white shadow-xs"
+                    : "border border-[#E2DDD0] bg-white text-[#16382E] hover:border-[#A67C46]")
+                }
+              >
+                ⏳ Drop Year vs. Join Now Simulator
+              </button>
+            </div>
+
+            {trajectoryModalTab === "predictor" ? (
+              <div className="mt-6">
+                <InteractiveScorePredictor
+                  examId={activeTrajectoryExam.id}
+                  onSelectExamId={(newId) => {
+                    if (newId === "boards-12") {
+                      setActiveTrajectoryExam(null);
+                      setStudioPredictorExamId("boards-12");
+                      scrollToSection("score-predictor-studio");
+                    } else {
+                      const nextExam = enrichedExamsData.find((e) => e.id === newId);
+                      if (nextExam) setActiveTrajectoryExam(nextExam);
+                    }
+                  }}
+                  studentStream={studentStream}
+                  showExamSelector={false}
+                  onAskAi={(promptText) => openCounsellorWithPrompt(promptText, "gemini-2.5-pro")}
+                />
+              </div>
+            ) : trajectoryModalTab === "drop-sim" ? (
+              <div className="mt-6">
+                <DropYearSimulator
+                  defaultTier1Pay={activeTrajectoryExam.avgEntrySalaryLakhs || 22}
+                  examName={activeTrajectoryExam.name}
+                  onAskAi={(promptText) => openCounsellorWithPrompt(promptText, "gemini-2.5-pro")}
+                />
+              </div>
+            ) : (
+            /* 5 Structured Trajectory Sections (Including Loan & ROI Simulator) */
             <div className="mt-6 space-y-5">
               {/* 1. Exam Blueprint */}
               <div className="rounded-2xl border border-[#E2DDD0] bg-white p-5">
@@ -4039,6 +6293,7 @@ export default function App() {
                 </div>
               </div>
             </div>
+            )}
 
             {/* Modal Footer Actions */}
             <div className="mt-6 flex flex-wrap items-center justify-between gap-3 border-t border-[#E2DDD0] pt-5">
@@ -4540,97 +6795,107 @@ export default function App() {
           onClick={() => setIsCounsellorOpen(false)}
         >
           <aside
-            className="flex h-full w-full max-w-xl flex-col border-l border-[#E2DDD0] bg-[#F9F7F1] shadow-2xl"
+            className={
+              "flex h-screen w-full flex-col overflow-hidden border-l border-[#E2DDD0] bg-[#F9F7F1] shadow-2xl transition-all duration-300 " +
+              (isCounsellorWide ? "max-w-5xl" : "max-w-xl")
+            }
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Counsellor Drawer Header */}
-            <div className="border-b border-[#E2DDD0] bg-white px-5 py-4">
-              <div className="flex items-center justify-between gap-2">
-                <div>
-                  <div className="flex items-center gap-2">
-                    <span className="h-2 w-2 rounded-full bg-emerald-500" />
-                    <p className="eyebrow-tracked text-[#A67C46]">LIVE CONVERSATIONAL AI MENTOR</p>
-                  </div>
-                  <h3 className="font-serif-editorial text-xl font-medium text-[#16382E]">
-                    Disha <span className="italic text-[#A67C46]">Gemini 2.5 Counsellor</span>
+            {/* Compact Single-Row Top Header */}
+            <div className="shrink-0 border-b border-[#E2DDD0] bg-white px-4 py-2.5">
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <div className="flex items-center gap-2.5">
+                  <span className="h-2.5 w-2.5 rounded-full bg-emerald-500 shrink-0" />
+                  <h3 className="font-serif-editorial text-lg font-medium text-[#16382E]">
+                    Disha <span className="italic text-[#A67C46]">Gemini 2.5</span>
                   </h3>
+
+                  {/* Inline Compact Model Pill Switcher */}
+                  <div className="inline-flex items-center rounded-full border border-[#E2DDD0] bg-[#F9F7F1] p-0.5">
+                    <button
+                      type="button"
+                      onClick={() => setSelectedModel("gemini-2.5-pro")}
+                      title="Deep Trajectory & Strategy Mode (gemini-2.5-pro)"
+                      className={
+                        "rounded-full px-2.5 py-1 text-[11px] font-bold transition-all cursor-pointer " +
+                        (selectedModel === "gemini-2.5-pro"
+                          ? "bg-[#194236] text-white shadow-2xs"
+                          : "text-[#4A5550] hover:text-[#16382E]")
+                      }
+                    >
+                      2.5 Pro
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setSelectedModel("gemini-2.5-flash")}
+                      title="Instant Q&A Mode (gemini-2.5-flash)"
+                      className={
+                        "rounded-full px-2.5 py-1 text-[11px] font-bold transition-all cursor-pointer " +
+                        (selectedModel === "gemini-2.5-flash"
+                          ? "bg-[#194236] text-white shadow-2xs"
+                          : "text-[#4A5550] hover:text-[#16382E]")
+                      }
+                    >
+                      2.5 Flash
+                    </button>
+                  </div>
                 </div>
 
-                <div className="flex items-center gap-2">
+                {/* Right Utility Controls: Key, Expand/Wide, Reset, Close */}
+                <div className="flex items-center gap-1.5">
                   <button
                     type="button"
                     onClick={() => setShowApiSettings((s) => !s)}
                     className={
-                      "rounded-full border px-3 py-1.5 text-xs font-semibold transition-colors cursor-pointer " +
-                      (customApiKey.trim()
+                      "rounded-full border px-2.5 py-1 text-[11px] font-semibold transition-colors cursor-pointer " +
+                      (showApiSettings
+                        ? "border-[#16382E] bg-[#16382E] text-white"
+                        : customApiKey.trim()
                         ? "border-[#194236]/30 bg-[#194236]/10 text-[#194236]"
                         : "border-[#E2DDD0] bg-[#F9F7F1] text-[#4A5550] hover:border-[#A67C46]")
                     }
+                    title="Configure Google AI Studio API Key"
                   >
-                    {customApiKey.trim() ? "Custom Key ✓" : "API Key Settings"}
+                    {customApiKey.trim() ? "Key ✓" : "API Key"}
                   </button>
+
+                  <button
+                    type="button"
+                    onClick={() => setIsCounsellorWide((w) => !w)}
+                    className="hidden sm:inline-flex items-center gap-1 rounded-full border border-[#E2DDD0] bg-[#F9F7F1] px-2.5 py-1 text-[11px] font-semibold text-[#16382E] transition-colors hover:border-[#A67C46] cursor-pointer"
+                    title={isCounsellorWide ? "Switch to compact drawer" : "Expand to wide reading view"}
+                  >
+                    <span>{isCounsellorWide ? "Compact ⤡" : "Expand ⤢"}</span>
+                  </button>
+
+                  {messages.length > 1 && (
+                    <button
+                      type="button"
+                      onClick={resetCounsellorChat}
+                      className="rounded-full border border-[#E2DDD0] bg-[#F9F7F1] px-2.5 py-1 text-[11px] font-semibold text-[#4A5550] transition-colors hover:border-[#16382E] hover:text-[#16382E] cursor-pointer"
+                      title="Reset Conversation"
+                    >
+                      Reset
+                    </button>
+                  )}
+
                   <button
                     type="button"
                     onClick={() => setIsCounsellorOpen(false)}
                     aria-label="Close AI Counsellor"
-                    className="flex h-8 w-8 items-center justify-center rounded-full border border-[#E2DDD0] bg-[#F9F7F1] text-[#16382E] hover:border-[#16382E] cursor-pointer"
+                    className="flex h-7 w-7 items-center justify-center rounded-full border border-[#E2DDD0] bg-[#F9F7F1] text-xs text-[#16382E] hover:border-[#16382E] cursor-pointer"
                   >
                     ✕
                   </button>
                 </div>
               </div>
 
-              {/* Model Selector Toggle: gemini-2.5-pro & gemini-2.5-flash */}
-              <div className="mt-3.5 grid grid-cols-2 gap-2 rounded-2xl border border-[#E2DDD0] bg-[#F9F7F1] p-1.5">
-                <button
-                  type="button"
-                  onClick={() => setSelectedModel("gemini-2.5-pro")}
-                  className={
-                    "rounded-xl px-3 py-2 text-left transition-all cursor-pointer " +
-                    (selectedModel === "gemini-2.5-pro"
-                      ? "bg-[#194236] text-white shadow-xs"
-                      : "text-[#4A5550] hover:text-[#16382E]")
-                  }
-                >
-                  <p className="text-xs font-bold">gemini-2.5-pro</p>
-                  <p
-                    className={
-                      "text-[10px] " +
-                      (selectedModel === "gemini-2.5-pro" ? "text-[#E6C594]" : "text-[#6D7772]")
-                    }
-                  >
-                    Deep Trajectory & Strategy Mode
-                  </p>
-                </button>
-
-                <button
-                  type="button"
-                  onClick={() => setSelectedModel("gemini-2.5-flash")}
-                  className={
-                    "rounded-xl px-3 py-2 text-left transition-all cursor-pointer " +
-                    (selectedModel === "gemini-2.5-flash"
-                      ? "bg-[#194236] text-white shadow-xs"
-                      : "text-[#4A5550] hover:text-[#16382E]")
-                  }
-                >
-                  <p className="text-xs font-bold">gemini-2.5-flash</p>
-                  <p
-                    className={
-                      "text-[10px] " +
-                      (selectedModel === "gemini-2.5-flash" ? "text-[#E6C594]" : "text-[#6D7772]")
-                    }
-                  >
-                    Instant Q&A Mode
-                  </p>
-                </button>
-              </div>
-
-              {/* Optional Collapsible Custom API Key Settings Panel */}
+              {/* Collapsible API Key Drawer (Only visible when clicked, auto-closes on Done or Send) */}
               {showApiSettings && (
-                <div className="mt-3 rounded-2xl border border-[#E2DDD0] bg-[#F9F7F1] p-3.5">
-                  <div className="flex items-center justify-between text-xs mb-1.5">
+                <div className="mt-2.5 rounded-xl border border-[#E2DDD0] bg-[#F9F7F1] p-3">
+                  <div className="flex items-center justify-between text-[11px] mb-1.5">
                     <span className="font-bold text-[#16382E]">
-                      Optional Custom Google AI Studio Key
+                      Google AI Studio Key ({selectedModel})
                     </span>
                     <a
                       href="https://aistudio.google.com"
@@ -4638,74 +6903,58 @@ export default function App() {
                       rel="noopener noreferrer"
                       className="font-semibold text-[#A67C46] underline"
                     >
-                      Get key at aistudio.google.com ↗
+                      Get free key at aistudio.google.com ↗
                     </a>
                   </div>
-                  <div className="flex gap-2">
+                  <div className="flex gap-1.5">
                     <input
                       type="password"
                       value={customApiKey}
                       onChange={(e) => setCustomApiKey(e.target.value)}
-                      placeholder="Leave blank to use built-in runtime key, or paste AIzaSy..."
-                      className="flex-1 rounded-xl border border-[#E2DDD0] bg-white px-3 py-2 text-xs text-[#16382E] focus:border-[#16382E] focus:outline-none"
+                      placeholder="Paste AIzaSy... key (saved in browser)"
+                      className="flex-1 rounded-lg border border-[#E2DDD0] bg-white px-2.5 py-1.5 text-xs text-[#16382E] focus:border-[#16382E] focus:outline-none"
                     />
                     {customApiKey && (
                       <button
                         type="button"
                         onClick={() => setCustomApiKey("")}
-                        className="rounded-xl border border-[#E2DDD0] bg-white px-3 py-2 text-xs font-semibold text-[#4A5550] hover:text-[#16382E] cursor-pointer"
+                        className="rounded-lg border border-[#E2DDD0] bg-white px-2.5 py-1.5 text-[11px] font-semibold text-[#4A5550] hover:text-red-700 cursor-pointer"
                       >
                         Clear
                       </button>
                     )}
+                    <button
+                      type="button"
+                      onClick={() => setShowApiSettings(false)}
+                      className="rounded-lg bg-[#194236] px-3 py-1.5 text-[11px] font-semibold text-white hover:bg-[#123027] cursor-pointer"
+                    >
+                      Done
+                    </button>
                   </div>
-                  <p className="mt-1.5 text-[11px] text-[#4A5550]">
-                    Uses the environment Gemini key automatically when left blank, or your custom
-                    key if provided.
-                  </p>
                 </div>
               )}
+            </div>
 
-              {/* Active Student Context Strip */}
-              <div className="mt-2.5 flex flex-wrap items-center gap-1.5 text-[11px] text-[#4A5550]">
-                <span className="rounded-full bg-[#F9F7F1] border border-[#E2DDD0] px-2.5 py-0.5 font-semibold text-[#16382E]">
+            {/* Single-Line Ultra-Slim Context Strip */}
+            <div className="shrink-0 flex items-center justify-between gap-2 border-b border-[#E2DDD0] bg-[#F9F7F1]/90 px-4 py-1.5 text-[11px] text-[#4A5550] overflow-x-auto">
+              <div className="flex items-center gap-1.5 whitespace-nowrap">
+                <span className="rounded-full bg-white border border-[#E2DDD0] px-2 py-0.5 font-semibold text-[#16382E]">
                   Stream: {studentStream}
                 </span>
-                <span className="rounded-full bg-[#F9F7F1] border border-[#E2DDD0] px-2.5 py-0.5 font-semibold text-[#16382E]">
-                  Quiz: {quizResults ? quizResults.archetype.title : "Not taken yet"}
+                <span className="rounded-full bg-white border border-[#E2DDD0] px-2 py-0.5 font-semibold text-[#16382E]">
+                  Quiz: {quizResults ? quizResults.archetype.title : "Not taken"}
                 </span>
-                <span className="rounded-full bg-[#F9F7F1] border border-[#E2DDD0] px-2.5 py-0.5 font-semibold text-[#16382E]">
+                <span className="rounded-full bg-white border border-[#E2DDD0] px-2 py-0.5 font-semibold text-[#16382E]">
                   Portfolio: {portfolioItems.length} exams
                 </span>
               </div>
+              <span className="hidden sm:inline text-[10px] font-semibold uppercase tracking-wider text-[#A67C46] whitespace-nowrap">
+                {selectedModel === "gemini-2.5-pro" ? "Deep Strategy Mode" : "Instant Q&A Mode"}
+              </span>
             </div>
 
-            {/* One-Click AI Prompt Chips */}
-            <div className="border-b border-[#E2DDD0] bg-white/70 px-5 py-2.5">
-              <p className="mb-1.5 text-[10px] font-bold uppercase tracking-[0.14em] text-[#4A5550]">
-                Say &quot;Hi&quot; or Try a Strategic Prompt
-              </p>
-              <div className="flex flex-wrap gap-1.5">
-                {[
-                  "Build my 4-Bucket Portfolio (Dream + Target + Wildcard + Backup)",
-                  "I am a PCB student burnt out by NEET—what are my best high-paying options?",
-                  "Compare IPMAT vs Engineering/Medicine ROI over 10 years"
-                ].map((chip) => (
-                  <button
-                    key={chip}
-                    type="button"
-                    onClick={() => sendMessageToCounsellor(chip)}
-                    disabled={isGenerating}
-                    className="rounded-full border border-[#E2DDD0] bg-white px-3 py-1 text-left text-[11px] font-medium text-[#16382E] transition-colors hover:border-[#A67C46] hover:bg-[#F9F7F1] cursor-pointer"
-                  >
-                    {chip}
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            {/* Chat Messages Feed */}
-            <div className="flex-1 space-y-4 overflow-y-auto px-5 py-5">
+            {/* SPACIOUS SCROLLABLE CHAT CONTAINER (Occupies 80%+ of Drawer Height) */}
+            <div className="flex-1 min-h-0 space-y-4 overflow-y-auto px-4 sm:px-6 py-4">
               {apiNotice && (
                 <div className="rounded-xl border border-[#A67C46]/40 bg-[#A67C46]/10 p-3 text-xs text-[#6B4A21]">
                   {apiNotice}
@@ -4720,16 +6969,23 @@ export default function App() {
                     className={"flex flex-col " + (isUser ? "items-end" : "items-start")}
                   >
                     {!isUser && (
-                      <span className="mb-1 ml-1 text-[10px] font-bold uppercase tracking-wider text-[#A67C46]">
-                        {msg.modelUsed}
-                      </span>
+                      <div className="mb-1 ml-1 flex items-center gap-1.5">
+                        <span className="text-[10px] font-bold uppercase tracking-wider text-[#A67C46]">
+                          {msg.modelUsed}
+                        </span>
+                        {msg.isFallback && (
+                          <span className="rounded-full bg-[#A67C46]/15 px-2 py-0.2 text-[9px] font-semibold text-[#87602F]">
+                            Smart Profile Engine
+                          </span>
+                        )}
+                      </div>
                     )}
                     <div
                       className={
-                        "max-w-[92%] rounded-2xl px-4 py-3.5 shadow-2xs " +
+                        "rounded-2xl px-4 py-3.5 shadow-2xs " +
                         (isUser
-                          ? "bg-[#194236] text-white text-sm leading-relaxed"
-                          : "border border-[#E2DDD0] bg-white text-[#16382E]")
+                          ? "max-w-[85%] bg-[#194236] text-white text-sm leading-relaxed"
+                          : "max-w-[96%] border border-[#E2DDD0] bg-white text-[#16382E]")
                       }
                     >
                       {isUser ? msg.text : renderFormattedText(msg.text)}
@@ -4738,10 +6994,33 @@ export default function App() {
                 );
               })}
 
+              {/* Starter Prompt Cards INSIDE Scrollable Feed (Scrolls away naturally with chat) */}
+              {messages.length <= 2 && !isGenerating && (
+                <div className="rounded-2xl border border-[#E2DDD0] bg-white/80 p-3.5 shadow-2xs">
+                  <p className="mb-2 text-[10px] font-bold uppercase tracking-[0.14em] text-[#A67C46]">
+                    Suggested Starting Topics (Or type &quot;Hi&quot; below)
+                  </p>
+                  <div className="flex flex-col gap-1.5">
+                    {COUNSELLOR_PROMPT_CHIPS.map((chip) => (
+                      <button
+                        key={chip}
+                        type="button"
+                        onClick={() => sendMessageToCounsellor(chip)}
+                        disabled={isGenerating}
+                        className="rounded-xl border border-[#E2DDD0] bg-[#F9F7F1]/70 px-3 py-2 text-left text-xs font-medium text-[#16382E] transition-colors hover:border-[#A67C46] hover:bg-white cursor-pointer"
+                      >
+                        {chip} →
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
+
               {isGenerating && (
                 <div className="flex items-start">
-                  <div className="rounded-2xl border border-[#E2DDD0] bg-white px-4 py-3 text-xs font-medium text-[#4A5550]">
-                    {selectedModel} is thinking...
+                  <div className="inline-flex items-center gap-2 rounded-2xl border border-[#E2DDD0] bg-white px-4 py-3 text-xs font-medium text-[#4A5550] shadow-2xs">
+                    <span className="h-2 w-2 rounded-full bg-[#A67C46] animate-ping" />
+                    <span>{selectedModel} is thinking...</span>
                   </div>
                 </div>
               )}
@@ -4749,27 +7028,71 @@ export default function App() {
               <div ref={chatEndRef} />
             </div>
 
-            {/* Chat Composer Footer */}
+            {/* Optional Collapsible Quick-Prompts Bar Above Composer */}
+            {showQuickPromptsBar && (
+              <div className="shrink-0 border-t border-[#E2DDD0] bg-[#F9F7F1] px-4 py-2.5">
+                <div className="flex items-center justify-between mb-1.5">
+                  <span className="text-[10px] font-bold uppercase tracking-wider text-[#A67C46]">
+                    Quick Strategic Prompts
+                  </span>
+                  <button
+                    type="button"
+                    onClick={() => setShowQuickPromptsBar(false)}
+                    className="text-[11px] font-semibold text-[#4A5550] hover:text-[#16382E] cursor-pointer"
+                  >
+                    Hide ✕
+                  </button>
+                </div>
+                <div className="flex flex-wrap gap-1.5">
+                  {COUNSELLOR_PROMPT_CHIPS.map((chip) => (
+                    <button
+                      key={chip}
+                      type="button"
+                      onClick={() => sendMessageToCounsellor(chip)}
+                      disabled={isGenerating}
+                      className="rounded-full border border-[#E2DDD0] bg-white px-3 py-1 text-left text-[11px] font-medium text-[#16382E] transition-colors hover:border-[#A67C46] cursor-pointer"
+                    >
+                      {chip}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Compact Chat Composer Footer */}
             <form
               onSubmit={(e) => {
                 e.preventDefault();
                 sendMessageToCounsellor();
               }}
-              className="border-t border-[#E2DDD0] bg-white p-4"
+              className="shrink-0 border-t border-[#E2DDD0] bg-white px-4 py-3"
             >
               <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={() => setShowQuickPromptsBar((prev) => !prev)}
+                  title="Toggle Quick Prompt Ideas"
+                  className={
+                    "shrink-0 rounded-full border px-3 py-2 text-xs font-semibold transition-colors cursor-pointer " +
+                    (showQuickPromptsBar
+                      ? "border-[#A67C46] bg-[#A67C46] text-white"
+                      : "border-[#E2DDD0] bg-[#F9F7F1] text-[#16382E] hover:border-[#A67C46]")
+                  }
+                >
+                  ✨ Prompts
+                </button>
                 <input
                   type="text"
                   value={chatInput}
                   onChange={(e) => setChatInput(e.target.value)}
-                  placeholder={"Say hi or ask " + selectedModel + " anything on your mind..."}
-                  className="flex-1 rounded-full border border-[#E2DDD0] bg-[#F9F7F1] px-4 py-2.5 text-sm text-[#16382E] placeholder-[#7A847F] focus:border-[#16382E] focus:bg-white focus:outline-none"
+                  placeholder={"Say hi or ask " + selectedModel + " anything..."}
+                  className="flex-1 rounded-full border border-[#E2DDD0] bg-[#F9F7F1] px-4 py-2 text-sm text-[#16382E] placeholder-[#7A847F] focus:border-[#16382E] focus:bg-white focus:outline-none"
                 />
                 <button
                   type="submit"
                   disabled={!chatInput.trim() || isGenerating}
                   className={
-                    "rounded-full px-5 py-2.5 text-xs sm:text-sm font-semibold text-white transition-all " +
+                    "shrink-0 rounded-full px-5 py-2 text-xs sm:text-sm font-semibold text-white transition-all " +
                     (!chatInput.trim() || isGenerating
                       ? "bg-[#194236]/40 cursor-not-allowed"
                       : "bg-[#194236] hover:bg-[#123027] cursor-pointer")
